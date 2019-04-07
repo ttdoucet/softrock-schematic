@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name dk_Diodes-Zener-Single)(type Legacy)(uri /home/todd/digikey-kicad-library/digikey-symbols/dk_Diodes-Zener-Single.lib)(options "")(descr ""))
+  (lib (name RadioParts)(type Legacy)(uri ${KIPRJMOD}/RadioParts.lib)(options "")(descr ""))
+)
