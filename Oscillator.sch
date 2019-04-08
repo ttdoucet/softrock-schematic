@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:radio-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -617,14 +618,8 @@ F 3 "~" H 6850 2750 50  0001 C CNN
 	1    6850 2750
 	1    0    0    -1  
 $EndComp
-Text Label 8750 1700 2    50   ~ 0
-QSD-CLK-1
-Text Label 8750 2800 2    50   ~ 0
-QSD-CLK-0
 Wire Wire Line
-	8050 2800 8750 2800
-Text Label 7750 1200 0    50   ~ 0
-5VDC
+	8050 2800 8500 2800
 $Comp
 L Device:C_Small C36
 U 1 1 5CBD562E
@@ -691,8 +686,6 @@ Wire Wire Line
 	7700 1400 7700 1200
 Connection ~ 7700 1200
 Wire Wire Line
-	7700 1200 7750 1200
-Wire Wire Line
 	7650 2100 7750 2100
 Wire Wire Line
 	7750 2100 7800 2100
@@ -734,8 +727,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 2300 8250 1700
 Connection ~ 8250 1700
-Wire Wire Line
-	8250 1700 8750 1700
 $Comp
 L power:Earth #PWR0117
 U 1 1 5CAF8631
@@ -768,136 +759,6 @@ Wire Wire Line
 	6750 1500 6750 1700
 Text Label 7800 2400 0    50   ~ 0
 5VDC
-$Comp
-L Regulator_Linear:L7805 U7
-U 1 1 5CAAE932
-P 2550 3750
-F 0 "U7" H 2550 3992 50  0000 C CNN
-F 1 "L7805" H 2550 3901 50  0000 C CNN
-F 2 "" H 2575 3600 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2550 3700 50  0001 C CNN
-	1    2550 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 5CAAF028
-P 2000 3950
-F 0 "C4" H 1800 4000 50  0000 L CNN
-F 1 "4.7uF" H 1700 3900 50  0000 L CNN
-F 2 "" H 2038 3800 50  0001 C CNN
-F 3 "~" H 2000 3950 50  0001 C CNN
-	1    2000 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 5CAAF562
-P 2900 3950
-F 0 "C5" H 2700 4000 50  0000 L CNN
-F 1 "4.7uF" H 2600 3900 50  0000 L CNN
-F 2 "" H 2938 3800 50  0001 C CNN
-F 3 "~" H 2900 3950 50  0001 C CNN
-	1    2900 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L RadioParts:1N4003 D3
-U 1 1 5CAAFF5C
-P 1500 3750
-F 0 "D3" H 1500 3534 50  0000 C CNN
-F 1 "1N4003" H 1500 3625 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1500 3575 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1500 3750 50  0001 C CNN
-	1    1500 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R14
-U 1 1 5CAB0267
-P 1800 3750
-F 0 "R14" V 1700 3700 50  0000 C CNN
-F 1 "68" V 1700 3850 50  0000 C CNN
-F 2 "" V 1840 3740 50  0001 C CNN
-F 3 "~" H 1800 3750 50  0001 C CNN
-	1    1800 3750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1950 3750 2000 3750
-Text Label 3000 3750 0    50   ~ 0
-5VDC
-Wire Wire Line
-	2850 3750 2900 3750
-Wire Wire Line
-	2900 3850 2900 3750
-Connection ~ 2900 3750
-Wire Wire Line
-	2900 3750 3000 3750
-Wire Wire Line
-	2000 3850 2000 3750
-Connection ~ 2000 3750
-Wire Wire Line
-	2000 3750 2250 3750
-$Comp
-L power:Earth #PWR?
-U 1 1 5CACA5BF
-P 2000 4050
-F 0 "#PWR?" H 2000 3800 50  0001 C CNN
-F 1 "Earth" H 2000 3900 50  0001 C CNN
-F 2 "" H 2000 4050 50  0001 C CNN
-F 3 "~" H 2000 4050 50  0001 C CNN
-	1    2000 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CACAA94
-P 2900 4050
-F 0 "#PWR?" H 2900 3800 50  0001 C CNN
-F 1 "Earth" H 2900 3900 50  0001 C CNN
-F 2 "" H 2900 4050 50  0001 C CNN
-F 3 "~" H 2900 4050 50  0001 C CNN
-	1    2900 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CACBB1A
-P 2550 4050
-F 0 "#PWR?" H 2550 3800 50  0001 C CNN
-F 1 "Earth" H 2550 3900 50  0001 C CNN
-F 2 "" H 2550 4050 50  0001 C CNN
-F 3 "~" H 2550 4050 50  0001 C CNN
-	1    2550 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CACBF87
-P 1400 4050
-F 0 "#PWR?" H 1400 3800 50  0001 C CNN
-F 1 "Earth" H 1400 3900 50  0001 C CNN
-F 2 "" H 1400 4050 50  0001 C CNN
-F 3 "~" H 1400 4050 50  0001 C CNN
-	1    1400 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Jack-DC J3
-U 1 1 5CAB1200
-P 1050 3850
-F 0 "J3" H 1107 4175 50  0000 C CNN
-F 1 "+12 VDC" H 1107 4084 50  0000 C CNN
-F 2 "" H 1100 3810 50  0001 C CNN
-F 3 "~" H 1100 3810 50  0001 C CNN
-	1    1050 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 3950 1400 3950
-Wire Wire Line
-	1400 3950 1400 4050
 $Comp
 L Isolator:LTV-817 U?
 U 1 1 5CB2F9DE
@@ -996,7 +857,7 @@ Wire Wire Line
 	4500 4600 4550 4600
 Connection ~ 4500 4600
 Wire Wire Line
-	4100 3800 4100 4100
+	4100 3800 4100 4150
 Wire Wire Line
 	4500 3800 4500 3950
 $Comp
@@ -1025,13 +886,9 @@ Wire Wire Line
 	3900 3800 3900 3850
 Wire Wire Line
 	4300 3800 4300 3850
-Text Label 4950 4100 2    50   ~ 0
-FSEL-1
-Text Label 4650 3950 0    50   ~ 0
-FSEL-0
-Connection ~ 4100 4100
+Connection ~ 4100 4150
 Wire Wire Line
-	4100 4100 4100 4250
+	4100 4150 4100 4250
 Wire Wire Line
 	5000 3950 4500 3950
 Connection ~ 4500 3950
@@ -1040,8 +897,28 @@ Wire Wire Line
 Wire Wire Line
 	4100 3200 4300 3200
 Wire Wire Line
-	4100 4100 5000 4100
+	4100 4150 5000 4150
 Connection ~ 4300 3200
 Wire Wire Line
 	4300 3200 4500 3200
+Wire Wire Line
+	7700 1200 7800 1200
+Wire Wire Line
+	7550 3350 7650 3350
+Text Label 7550 3350 2    50   ~ 0
+5VDC
+Text GLabel 7650 3350 2    50   Input ~ 0
+5VDC
+Text GLabel 5000 3950 2    50   Input ~ 0
+FSEL-0
+Text GLabel 5000 4150 2    50   Input ~ 0
+FSEL-1
+Text GLabel 8500 1700 2    50   Input ~ 0
+QSD-CLK-1
+Text GLabel 8500 2800 2    50   Input ~ 0
+QSD-CLK-0
+Text Label 7800 1200 0    50   ~ 0
+5VDC
+Wire Wire Line
+	8250 1700 8500 1700
 $EndSCHEMATC
