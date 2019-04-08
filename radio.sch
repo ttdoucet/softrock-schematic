@@ -415,12 +415,12 @@ $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5CB5B72A
-P 1200 2800
-F 0 "#PWR0109" H 1200 2550 50  0001 C CNN
-F 1 "GND" H 1205 2627 50  0001 C CNN
-F 2 "" H 1200 2800 50  0001 C CNN
-F 3 "" H 1200 2800 50  0001 C CNN
-	1    1200 2800
+P 1300 3050
+F 0 "#PWR0109" H 1300 2800 50  0001 C CNN
+F 1 "GND" H 1305 2877 50  0001 C CNN
+F 2 "" H 1300 3050 50  0001 C CNN
+F 3 "" H 1300 3050 50  0001 C CNN
+	1    1300 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -707,8 +707,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 2100 7750 2100
 Connection ~ 7700 2100
-Text Label 7750 2100 0    50   ~ 0
-5VDC
 $Comp
 L power:Earth #PWR0116
 U 1 1 5CAE5AD9
@@ -772,21 +770,6 @@ Connection ~ 6700 1200
 Wire Wire Line
 	6700 1200 6700 1400
 $Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5CAB0171
-P 1000 7600
-F 0 "#FLG0101" H 1000 7675 50  0001 C CNN
-F 1 "PWR_FLAG" H 1000 7773 50  0000 C CNN
-F 2 "" H 1000 7600 50  0001 C CNN
-F 3 "~" H 1000 7600 50  0001 C CNN
-	1    1000 7600
-	1    0    0    -1  
-$EndComp
-Text Label 1000 7700 2    50   ~ 0
-5VDC
-Wire Wire Line
-	1000 7600 1000 7700
-$Comp
 L power:Earth #PWR0119
 U 1 1 5CAB3CC6
 P 2450 7700
@@ -836,4 +819,132 @@ Text Label 1850 7450 2    50   ~ 0
 QSD-CLK-0
 Wire Wire Line
 	1850 7450 1900 7450
+Text Label 7750 2100 0    50   ~ 0
+5VDC
+$Comp
+L Regulator_Linear:L7805 U7
+U 1 1 5CAAE932
+P 2500 3550
+F 0 "U7" H 2500 3792 50  0000 C CNN
+F 1 "L7805" H 2500 3701 50  0000 C CNN
+F 2 "" H 2525 3400 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2500 3500 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5CAAF028
+P 1950 3700
+F 0 "C4" H 1750 3750 50  0000 L CNN
+F 1 "4.7uF" H 1650 3650 50  0000 L CNN
+F 2 "" H 1988 3550 50  0001 C CNN
+F 3 "~" H 1950 3700 50  0001 C CNN
+	1    1950 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5CAAF562
+P 2850 3700
+F 0 "C5" H 2650 3750 50  0000 L CNN
+F 1 "4.7uF" H 2550 3650 50  0000 L CNN
+F 2 "" H 2888 3550 50  0001 C CNN
+F 3 "~" H 2850 3700 50  0001 C CNN
+	1    2850 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4003 D3
+U 1 1 5CAAFF5C
+P 1450 3550
+F 0 "D3" H 1450 3334 50  0000 C CNN
+F 1 "1N4003" H 1450 3425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1450 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1450 3550 50  0001 C CNN
+	1    1450 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 5CAB0267
+P 1750 3550
+F 0 "R14" V 1650 3500 50  0000 C CNN
+F 1 "68" V 1650 3650 50  0000 C CNN
+F 2 "" V 1790 3540 50  0001 C CNN
+F 3 "~" H 1750 3550 50  0001 C CNN
+	1    1750 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 3550 1950 3550
+Text Label 2950 3550 0    50   ~ 0
+5VDC
+Wire Wire Line
+	2800 3550 2850 3550
+Wire Wire Line
+	2850 3600 2850 3550
+Connection ~ 2850 3550
+Wire Wire Line
+	2850 3550 2950 3550
+Wire Wire Line
+	1950 3600 1950 3550
+Connection ~ 1950 3550
+Wire Wire Line
+	1950 3550 2200 3550
+$Comp
+L power:Earth #PWR?
+U 1 1 5CACA5BF
+P 1950 3800
+F 0 "#PWR?" H 1950 3550 50  0001 C CNN
+F 1 "Earth" H 1950 3650 50  0001 C CNN
+F 2 "" H 1950 3800 50  0001 C CNN
+F 3 "~" H 1950 3800 50  0001 C CNN
+	1    1950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CACAA94
+P 2850 3800
+F 0 "#PWR?" H 2850 3550 50  0001 C CNN
+F 1 "Earth" H 2850 3650 50  0001 C CNN
+F 2 "" H 2850 3800 50  0001 C CNN
+F 3 "~" H 2850 3800 50  0001 C CNN
+	1    2850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CACBB1A
+P 2500 3850
+F 0 "#PWR?" H 2500 3600 50  0001 C CNN
+F 1 "Earth" H 2500 3700 50  0001 C CNN
+F 2 "" H 2500 3850 50  0001 C CNN
+F 3 "~" H 2500 3850 50  0001 C CNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CACBF87
+P 1300 3750
+F 0 "#PWR?" H 1300 3500 50  0001 C CNN
+F 1 "Earth" H 1300 3600 50  0001 C CNN
+F 2 "" H 1300 3750 50  0001 C CNN
+F 3 "~" H 1300 3750 50  0001 C CNN
+	1    1300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Jack-DC J3
+U 1 1 5CAB1200
+P 1000 3650
+F 0 "J3" H 1057 3975 50  0000 C CNN
+F 1 "+12 VDC" H 1057 3884 50  0000 C CNN
+F 2 "" H 1050 3610 50  0001 C CNN
+F 3 "~" H 1050 3610 50  0001 C CNN
+	1    1000 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
