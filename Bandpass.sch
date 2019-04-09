@@ -15,721 +15,853 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RadioParts:FST3253 U?
-U 1 1 5CB56286
-P 2450 2850
-AR Path="/5CAEA78E/5CB56286" Ref="U?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56286" Ref="U?"  Part="1" 
-F 0 "U?" H 2450 4031 50  0000 C CNN
-F 1 "FST3253" H 2450 3940 50  0000 C CNN
-F 2 "" H 2450 2850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS352" H 2450 2850 50  0001 C CNN
-	1    2450 2850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5CB5628C
-P 5150 3400
-AR Path="/5CAEA78E/5CB5628C" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5628C" Ref="C?"  Part="1" 
-F 0 "C?" V 4921 3400 50  0001 C CNN
-F 1 "C_Small" V 5012 3400 50  0001 C CNN
-F 2 "" H 5150 3400 50  0001 C CNN
-F 3 "~" H 5150 3400 50  0001 C CNN
-	1    5150 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB56292
-P 5450 3400
-AR Path="/5CAEA78E/5CB56292" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56292" Ref="L?"  Part="1" 
-F 0 "L?" V 5655 3400 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 5564 3400 50  0001 C CNN
-F 2 "" H 5450 3400 50  0001 C CNN
-F 3 "~" H 5450 3400 50  0001 C CNN
-	1    5450 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB56298
-P 5800 3550
-AR Path="/5CAEA78E/5CB56298" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56298" Ref="L?"  Part="1" 
-F 0 "L?" V 6005 3550 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 5914 3550 50  0001 C CNN
-F 2 "" H 5800 3550 50  0001 C CNN
-F 3 "~" H 5800 3550 50  0001 C CNN
-	1    5800 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5CB5629E
-P 6000 3400
-AR Path="/5CAEA78E/5CB5629E" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5629E" Ref="C?"  Part="1" 
-F 0 "C?" V 5771 3400 50  0001 C CNN
-F 1 "C_Small" V 5862 3400 50  0001 C CNN
-F 2 "" H 6000 3400 50  0001 C CNN
-F 3 "~" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB562A4
-P 6300 3400
-AR Path="/5CAEA78E/5CB562A4" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562A4" Ref="L?"  Part="1" 
-F 0 "L?" V 6505 3400 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 6414 3400 50  0001 C CNN
-F 2 "" H 6300 3400 50  0001 C CNN
-F 3 "~" H 6300 3400 50  0001 C CNN
-	1    6300 3400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5250 3400 5350 3400
-Wire Wire Line
-	5550 3400 5650 3400
-Wire Wire Line
-	6100 3400 6200 3400
-Wire Wire Line
-	6400 3400 6500 3400
-$Comp
-L Device:C_Small C?
-U 1 1 5CB562AE
-P 5650 3550
-AR Path="/5CAEA78E/5CB562AE" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562AE" Ref="C?"  Part="1" 
-F 0 "C?" V 5421 3550 50  0001 C CNN
-F 1 "C_Small" V 5512 3550 50  0001 C CNN
-F 2 "" H 5650 3550 50  0001 C CNN
-F 3 "~" H 5650 3550 50  0001 C CNN
-	1    5650 3550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5650 3450 5650 3400
-Wire Wire Line
-	5900 3400 5800 3400
-Connection ~ 5650 3400
-Wire Wire Line
-	5800 3450 5800 3400
-Connection ~ 5800 3400
-Wire Wire Line
-	5800 3400 5650 3400
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB562BA
-P 5650 3700
-AR Path="/5CAEA78E/5CB562BA" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562BA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5650 3450 50  0001 C CNN
-F 1 "Earth" H 5650 3550 50  0001 C CNN
-F 2 "" H 5650 3700 50  0001 C CNN
-F 3 "~" H 5650 3700 50  0001 C CNN
-	1    5650 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB562C0
-P 5800 3700
-AR Path="/5CAEA78E/5CB562C0" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562C0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5800 3450 50  0001 C CNN
-F 1 "Earth" H 5800 3550 50  0001 C CNN
-F 2 "" H 5800 3700 50  0001 C CNN
-F 3 "~" H 5800 3700 50  0001 C CNN
-	1    5800 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 3650 5650 3700
-Wire Wire Line
-	5800 3650 5800 3700
-Wire Wire Line
-	5050 3400 4950 3400
-$Comp
 L Device:C_Small C?
 U 1 1 5CB562C9
-P 5100 4050
+P 4100 1900
 AR Path="/5CAEA78E/5CB562C9" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562C9" Ref="C?"  Part="1" 
-F 0 "C?" V 4871 4050 50  0001 C CNN
-F 1 "C_Small" V 4962 4050 50  0001 C CNN
-F 2 "" H 5100 4050 50  0001 C CNN
-F 3 "~" H 5100 4050 50  0001 C CNN
-	1    5100 4050
+AR Path="/5CB2DC4F/5CB562C9" Ref="C7"  Part="1" 
+F 0 "C7" V 3871 1900 50  0000 C CNN
+F 1 "680pF" V 3962 1900 50  0000 C CNN
+F 2 "" H 4100 1900 50  0001 C CNN
+F 3 "~" H 4100 1900 50  0001 C CNN
+	1    4100 1900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L_Core_Iron_Small L?
+L Device:L_Core_Iron L?
 U 1 1 5CB562CF
-P 5400 4050
+P 4450 1900
 AR Path="/5CAEA78E/5CB562CF" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562CF" Ref="L?"  Part="1" 
-F 0 "L?" V 5605 4050 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 5514 4050 50  0001 C CNN
-F 2 "" H 5400 4050 50  0001 C CNN
-F 3 "~" H 5400 4050 50  0001 C CNN
-	1    5400 4050
+AR Path="/5CB2DC4F/5CB562CF" Ref="L1"  Part="1" 
+F 0 "L1" V 4655 1900 50  0000 C CNN
+F 1 "5.5uH" V 4564 1900 50  0000 C CNN
+F 2 "" H 4450 1900 50  0001 C CNN
+F 3 "~" H 4450 1900 50  0001 C CNN
+	1    4450 1900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L_Core_Iron_Small L?
+L Device:L_Core_Iron L?
 U 1 1 5CB562D5
-P 5750 4200
+P 4950 2050
 AR Path="/5CAEA78E/5CB562D5" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562D5" Ref="L?"  Part="1" 
-F 0 "L?" V 5955 4200 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 5864 4200 50  0001 C CNN
-F 2 "" H 5750 4200 50  0001 C CNN
-F 3 "~" H 5750 4200 50  0001 C CNN
-	1    5750 4200
+AR Path="/5CB2DC4F/5CB562D5" Ref="L2"  Part="1" 
+F 0 "L2" H 5100 2000 50  0000 C CNN
+F 1 "2.6uH" H 5150 1900 50  0000 C CNN
+F 2 "" H 4950 2050 50  0001 C CNN
+F 3 "~" H 4950 2050 50  0001 C CNN
+	1    4950 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5CB562DB
-P 5950 4050
+P 5200 1900
 AR Path="/5CAEA78E/5CB562DB" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562DB" Ref="C?"  Part="1" 
-F 0 "C?" V 5721 4050 50  0001 C CNN
-F 1 "C_Small" V 5812 4050 50  0001 C CNN
-F 2 "" H 5950 4050 50  0001 C CNN
-F 3 "~" H 5950 4050 50  0001 C CNN
-	1    5950 4050
+AR Path="/5CB2DC4F/5CB562DB" Ref="C9"  Part="1" 
+F 0 "C9" V 4971 1900 50  0000 C CNN
+F 1 "680pF" V 5062 1900 50  0000 C CNN
+F 2 "" H 5200 1900 50  0001 C CNN
+F 3 "~" H 5200 1900 50  0001 C CNN
+	1    5200 1900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L_Core_Iron_Small L?
+L Device:L_Core_Iron L?
 U 1 1 5CB562E1
-P 6250 4050
+P 5550 1900
 AR Path="/5CAEA78E/5CB562E1" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562E1" Ref="L?"  Part="1" 
-F 0 "L?" V 6455 4050 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 6364 4050 50  0001 C CNN
-F 2 "" H 6250 4050 50  0001 C CNN
-F 3 "~" H 6250 4050 50  0001 C CNN
-	1    6250 4050
+AR Path="/5CB2DC4F/5CB562E1" Ref="L3"  Part="1" 
+F 0 "L3" V 5755 1900 50  0000 C CNN
+F 1 "5.5uH" V 5664 1900 50  0000 C CNN
+F 2 "" H 5550 1900 50  0001 C CNN
+F 3 "~" H 5550 1900 50  0001 C CNN
+	1    5550 1900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5200 4050 5300 4050
-Wire Wire Line
-	5500 4050 5600 4050
-Wire Wire Line
-	6050 4050 6150 4050
-Wire Wire Line
-	6350 4050 6450 4050
 $Comp
 L Device:C_Small C?
 U 1 1 5CB562EB
-P 5600 4200
+P 4750 2050
 AR Path="/5CAEA78E/5CB562EB" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB562EB" Ref="C?"  Part="1" 
-F 0 "C?" V 5371 4200 50  0001 C CNN
-F 1 "C_Small" V 5462 4200 50  0001 C CNN
-F 2 "" H 5600 4200 50  0001 C CNN
-F 3 "~" H 5600 4200 50  0001 C CNN
-	1    5600 4200
+AR Path="/5CB2DC4F/5CB562EB" Ref="C8"  Part="1" 
+F 0 "C8" H 4900 2100 50  0000 C CNN
+F 1 "1500pF" H 4900 2200 50  0000 C CNN
+F 2 "" H 4750 2050 50  0001 C CNN
+F 3 "~" H 4750 2050 50  0001 C CNN
+	1    4750 2050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5600 4100 5600 4050
-Wire Wire Line
-	5850 4050 5750 4050
-Connection ~ 5600 4050
-Wire Wire Line
-	5750 4100 5750 4050
-Connection ~ 5750 4050
-Wire Wire Line
-	5750 4050 5600 4050
 $Comp
 L power:Earth #PWR?
 U 1 1 5CB562F7
-P 5600 4350
+P 4750 2250
 AR Path="/5CAEA78E/5CB562F7" Ref="#PWR?"  Part="1" 
 AR Path="/5CB2DC4F/5CB562F7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5600 4100 50  0001 C CNN
-F 1 "Earth" H 5600 4200 50  0001 C CNN
-F 2 "" H 5600 4350 50  0001 C CNN
-F 3 "~" H 5600 4350 50  0001 C CNN
-	1    5600 4350
+F 0 "#PWR?" H 4750 2000 50  0001 C CNN
+F 1 "Earth" H 4750 2100 50  0001 C CNN
+F 2 "" H 4750 2250 50  0001 C CNN
+F 3 "~" H 4750 2250 50  0001 C CNN
+	1    4750 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 5CB562FD
-P 5750 4350
+P 4950 2250
 AR Path="/5CAEA78E/5CB562FD" Ref="#PWR?"  Part="1" 
 AR Path="/5CB2DC4F/5CB562FD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5750 4100 50  0001 C CNN
-F 1 "Earth" H 5750 4200 50  0001 C CNN
-F 2 "" H 5750 4350 50  0001 C CNN
-F 3 "~" H 5750 4350 50  0001 C CNN
-	1    5750 4350
+F 0 "#PWR?" H 4950 2000 50  0001 C CNN
+F 1 "Earth" H 4950 2100 50  0001 C CNN
+F 2 "" H 4950 2250 50  0001 C CNN
+F 3 "~" H 4950 2250 50  0001 C CNN
+	1    4950 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 4300 5600 4350
-Wire Wire Line
-	5750 4300 5750 4350
-Wire Wire Line
-	5000 4050 4900 4050
-$Comp
-L Device:C_Small C?
-U 1 1 5CB56306
-P 5250 1650
-AR Path="/5CAEA78E/5CB56306" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56306" Ref="C?"  Part="1" 
-F 0 "C?" V 5021 1650 50  0001 C CNN
-F 1 "C_Small" V 5112 1650 50  0001 C CNN
-F 2 "" H 5250 1650 50  0001 C CNN
-F 3 "~" H 5250 1650 50  0001 C CNN
-	1    5250 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB5630C
-P 5500 1650
-AR Path="/5CAEA78E/5CB5630C" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5630C" Ref="L?"  Part="1" 
-F 0 "L?" V 5705 1650 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 5614 1650 50  0001 C CNN
-F 2 "" H 5500 1650 50  0001 C CNN
-F 3 "~" H 5500 1650 50  0001 C CNN
-	1    5500 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB56312
-P 5900 1800
-AR Path="/5CAEA78E/5CB56312" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56312" Ref="L?"  Part="1" 
-F 0 "L?" V 6105 1800 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 6014 1800 50  0001 C CNN
-F 2 "" H 5900 1800 50  0001 C CNN
-F 3 "~" H 5900 1800 50  0001 C CNN
-	1    5900 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5CB56318
-P 6100 1650
-AR Path="/5CAEA78E/5CB56318" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56318" Ref="C?"  Part="1" 
-F 0 "C?" V 5871 1650 50  0001 C CNN
-F 1 "C_Small" V 5962 1650 50  0001 C CNN
-F 2 "" H 6100 1650 50  0001 C CNN
-F 3 "~" H 6100 1650 50  0001 C CNN
-	1    6100 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB5631E
-P 6400 1650
-AR Path="/5CAEA78E/5CB5631E" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5631E" Ref="L?"  Part="1" 
-F 0 "L?" V 6605 1650 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 6514 1650 50  0001 C CNN
-F 2 "" H 6400 1650 50  0001 C CNN
-F 3 "~" H 6400 1650 50  0001 C CNN
-	1    6400 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5350 1650 5400 1650
-Wire Wire Line
-	5600 1650 5700 1650
-Wire Wire Line
-	6200 1650 6300 1650
-Wire Wire Line
-	6500 1650 6600 1650
-$Comp
-L Device:C_Small C?
-U 1 1 5CB56328
-P 5700 1800
-AR Path="/5CAEA78E/5CB56328" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56328" Ref="C?"  Part="1" 
-F 0 "C?" V 5471 1800 50  0001 C CNN
-F 1 "C_Small" V 5562 1800 50  0001 C CNN
-F 2 "" H 5700 1800 50  0001 C CNN
-F 3 "~" H 5700 1800 50  0001 C CNN
-	1    5700 1800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5700 1700 5700 1650
-Wire Wire Line
-	6000 1650 5900 1650
-Connection ~ 5700 1650
-Wire Wire Line
-	5900 1700 5900 1650
-Connection ~ 5900 1650
-Wire Wire Line
-	5900 1650 5700 1650
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB56334
-P 5700 1950
-AR Path="/5CAEA78E/5CB56334" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56334" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5700 1700 50  0001 C CNN
-F 1 "Earth" H 5700 1800 50  0001 C CNN
-F 2 "" H 5700 1950 50  0001 C CNN
-F 3 "~" H 5700 1950 50  0001 C CNN
-	1    5700 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB5633A
-P 5900 1950
-AR Path="/5CAEA78E/5CB5633A" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5633A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5900 1700 50  0001 C CNN
-F 1 "Earth" H 5900 1800 50  0001 C CNN
-F 2 "" H 5900 1950 50  0001 C CNN
-F 3 "~" H 5900 1950 50  0001 C CNN
-	1    5900 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 1900 5700 1950
-Wire Wire Line
-	5900 1900 5900 1950
-$Comp
-L Device:R_US R_?
-U 1 1 5CB56342
-P 4550 1800
-AR Path="/5CAEA78E/5CB56342" Ref="R_?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56342" Ref="R_?"  Part="1" 
-F 0 "R_?" H 4200 1850 50  0001 L CNN
-F 1 "120" H 4300 1750 50  0001 L CNN
-F 2 "" V 4590 1790 50  0001 C CNN
-F 3 "~" H 4550 1800 50  0001 C CNN
-	1    4550 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R_?
-U 1 1 5CB56348
-P 4800 1650
-AR Path="/5CAEA78E/5CB56348" Ref="R_?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56348" Ref="R_?"  Part="1" 
-F 0 "R_?" H 4450 1700 50  0001 L CNN
-F 1 "120" H 4550 1600 50  0001 L CNN
-F 2 "" V 4840 1640 50  0001 C CNN
-F 3 "~" H 4800 1650 50  0001 C CNN
-	1    4800 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R_?
-U 1 1 5CB5634E
-P 5050 1800
-AR Path="/5CAEA78E/5CB5634E" Ref="R_?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5634E" Ref="R_?"  Part="1" 
-F 0 "R_?" H 4700 1850 50  0001 L CNN
-F 1 "120" H 4800 1750 50  0001 L CNN
-F 2 "" V 5090 1790 50  0001 C CNN
-F 3 "~" H 5050 1800 50  0001 C CNN
-	1    5050 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5CB56354
-P 4350 1650
-AR Path="/5CAEA78E/5CB56354" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56354" Ref="C?"  Part="1" 
-F 0 "C?" V 4121 1650 50  0001 C CNN
-F 1 "C_Small" V 4212 1650 50  0001 C CNN
-F 2 "" H 4350 1650 50  0001 C CNN
-F 3 "~" H 4350 1650 50  0001 C CNN
-	1    4350 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB5635A
-P 4550 2000
-AR Path="/5CAEA78E/5CB5635A" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5635A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 1750 50  0001 C CNN
-F 1 "Earth" H 4550 1850 50  0001 C CNN
-F 2 "" H 4550 2000 50  0001 C CNN
-F 3 "~" H 4550 2000 50  0001 C CNN
-	1    4550 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB56360
-P 5050 2000
-AR Path="/5CAEA78E/5CB56360" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56360" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5050 1750 50  0001 C CNN
-F 1 "Earth" H 5050 1850 50  0001 C CNN
-F 2 "" H 5050 2000 50  0001 C CNN
-F 3 "~" H 5050 2000 50  0001 C CNN
-	1    5050 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1650 4550 1650
-Wire Wire Line
-	4550 1650 4650 1650
-Connection ~ 4550 1650
-Wire Wire Line
-	4950 1650 5050 1650
-Wire Wire Line
-	5050 1950 5050 2000
-Wire Wire Line
-	4550 1950 4550 2000
-Wire Wire Line
-	5050 1650 5150 1650
-Connection ~ 5050 1650
-$Comp
-L Device:C_Small C?
-U 1 1 5CB5636E
-P 5250 2500
-AR Path="/5CAEA78E/5CB5636E" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5636E" Ref="C?"  Part="1" 
-F 0 "C?" V 5021 2500 50  0001 C CNN
-F 1 "C_Small" V 5112 2500 50  0001 C CNN
-F 2 "" H 5250 2500 50  0001 C CNN
-F 3 "~" H 5250 2500 50  0001 C CNN
-	1    5250 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB56374
-P 5500 2500
-AR Path="/5CAEA78E/5CB56374" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56374" Ref="L?"  Part="1" 
-F 0 "L?" V 5705 2500 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 5614 2500 50  0001 C CNN
-F 2 "" H 5500 2500 50  0001 C CNN
-F 3 "~" H 5500 2500 50  0001 C CNN
-	1    5500 2500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB5637A
-P 5900 2650
-AR Path="/5CAEA78E/5CB5637A" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5637A" Ref="L?"  Part="1" 
-F 0 "L?" V 6105 2650 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 6014 2650 50  0001 C CNN
-F 2 "" H 5900 2650 50  0001 C CNN
-F 3 "~" H 5900 2650 50  0001 C CNN
-	1    5900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5CB56380
-P 6100 2500
-AR Path="/5CAEA78E/5CB56380" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56380" Ref="C?"  Part="1" 
-F 0 "C?" V 5871 2500 50  0001 C CNN
-F 1 "C_Small" V 5962 2500 50  0001 C CNN
-F 2 "" H 6100 2500 50  0001 C CNN
-F 3 "~" H 6100 2500 50  0001 C CNN
-	1    6100 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Iron_Small L?
-U 1 1 5CB56386
-P 6400 2500
-AR Path="/5CAEA78E/5CB56386" Ref="L?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56386" Ref="L?"  Part="1" 
-F 0 "L?" V 6605 2500 50  0001 C CNN
-F 1 "L_Core_Iron_Small" V 6514 2500 50  0001 C CNN
-F 2 "" H 6400 2500 50  0001 C CNN
-F 3 "~" H 6400 2500 50  0001 C CNN
-	1    6400 2500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5350 2500 5400 2500
-Wire Wire Line
-	5600 2500 5700 2500
-Wire Wire Line
-	6200 2500 6300 2500
-Wire Wire Line
-	6500 2500 6600 2500
-$Comp
-L Device:C_Small C?
-U 1 1 5CB56390
-P 5700 2650
-AR Path="/5CAEA78E/5CB56390" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56390" Ref="C?"  Part="1" 
-F 0 "C?" V 5471 2650 50  0001 C CNN
-F 1 "C_Small" V 5562 2650 50  0001 C CNN
-F 2 "" H 5700 2650 50  0001 C CNN
-F 3 "~" H 5700 2650 50  0001 C CNN
-	1    5700 2650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5700 2550 5700 2500
-Wire Wire Line
-	6000 2500 5900 2500
-Connection ~ 5700 2500
-Wire Wire Line
-	5900 2550 5900 2500
-Connection ~ 5900 2500
-Wire Wire Line
-	5900 2500 5700 2500
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB5639C
-P 5700 2800
-AR Path="/5CAEA78E/5CB5639C" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5639C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5700 2550 50  0001 C CNN
-F 1 "Earth" H 5700 2650 50  0001 C CNN
-F 2 "" H 5700 2800 50  0001 C CNN
-F 3 "~" H 5700 2800 50  0001 C CNN
-	1    5700 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR?
-U 1 1 5CB563A2
-P 5900 2800
-AR Path="/5CAEA78E/5CB563A2" Ref="#PWR?"  Part="1" 
-AR Path="/5CB2DC4F/5CB563A2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5900 2550 50  0001 C CNN
-F 1 "Earth" H 5900 2650 50  0001 C CNN
-F 2 "" H 5900 2800 50  0001 C CNN
-F 3 "~" H 5900 2800 50  0001 C CNN
-	1    5900 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 2750 5700 2800
-Wire Wire Line
-	5900 2750 5900 2800
 $Comp
 L Device:R_US R_?
 U 1 1 5CB563AA
-P 4550 2650
+P 3400 2050
 AR Path="/5CAEA78E/5CB563AA" Ref="R_?"  Part="1" 
-AR Path="/5CB2DC4F/5CB563AA" Ref="R_?"  Part="1" 
-F 0 "R_?" H 4200 2700 50  0001 L CNN
-F 1 "120" H 4300 2600 50  0001 L CNN
-F 2 "" V 4590 2640 50  0001 C CNN
-F 3 "~" H 4550 2650 50  0001 C CNN
-	1    4550 2650
+AR Path="/5CB2DC4F/5CB563AA" Ref="R17"  Part="1" 
+F 0 "R17" H 3200 2050 50  0000 L CNN
+F 1 "75" H 3250 1950 50  0000 L CNN
+F 2 "" V 3440 2040 50  0001 C CNN
+F 3 "~" H 3400 2050 50  0001 C CNN
+	1    3400 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R_?
 U 1 1 5CB563B0
-P 4800 2500
+P 3650 1900
 AR Path="/5CAEA78E/5CB563B0" Ref="R_?"  Part="1" 
-AR Path="/5CB2DC4F/5CB563B0" Ref="R_?"  Part="1" 
-F 0 "R_?" H 4450 2550 50  0001 L CNN
-F 1 "120" H 4550 2450 50  0001 L CNN
-F 2 "" V 4840 2490 50  0001 C CNN
-F 3 "~" H 4800 2500 50  0001 C CNN
-	1    4800 2500
+AR Path="/5CB2DC4F/5CB563B0" Ref="R18"  Part="1" 
+F 0 "R18" V 3450 1800 50  0000 L CNN
+F 1 "120" V 3550 1800 50  0000 L CNN
+F 2 "" V 3690 1890 50  0001 C CNN
+F 3 "~" H 3650 1900 50  0001 C CNN
+	1    3650 1900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R_?
 U 1 1 5CB563B6
-P 5050 2650
+P 3900 2050
 AR Path="/5CAEA78E/5CB563B6" Ref="R_?"  Part="1" 
-AR Path="/5CB2DC4F/5CB563B6" Ref="R_?"  Part="1" 
-F 0 "R_?" H 4700 2700 50  0001 L CNN
-F 1 "120" H 4800 2600 50  0001 L CNN
-F 2 "" V 5090 2640 50  0001 C CNN
-F 3 "~" H 5050 2650 50  0001 C CNN
-	1    5050 2650
+AR Path="/5CB2DC4F/5CB563B6" Ref="R19"  Part="1" 
+F 0 "R19" H 3950 2050 50  0000 L CNN
+F 1 "75" H 3950 1950 50  0000 L CNN
+F 2 "" V 3940 2040 50  0001 C CNN
+F 3 "~" H 3900 2050 50  0001 C CNN
+	1    3900 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5CB563BC
-P 4350 2500
+P 3200 1900
 AR Path="/5CAEA78E/5CB563BC" Ref="C?"  Part="1" 
-AR Path="/5CB2DC4F/5CB563BC" Ref="C?"  Part="1" 
-F 0 "C?" V 4121 2500 50  0001 C CNN
-F 1 "C_Small" V 4212 2500 50  0001 C CNN
-F 2 "" H 4350 2500 50  0001 C CNN
-F 3 "~" H 4350 2500 50  0001 C CNN
-	1    4350 2500
+AR Path="/5CB2DC4F/5CB563BC" Ref="C6"  Part="1" 
+F 0 "C6" V 2971 1900 50  0000 C CNN
+F 1 "0.047uF" V 3062 1900 50  0000 C CNN
+F 2 "" H 3200 1900 50  0001 C CNN
+F 3 "~" H 3200 1900 50  0001 C CNN
+	1    3200 1900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 5CB563C2
-P 4550 2850
+P 3400 2250
 AR Path="/5CAEA78E/5CB563C2" Ref="#PWR?"  Part="1" 
 AR Path="/5CB2DC4F/5CB563C2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 2600 50  0001 C CNN
-F 1 "Earth" H 4550 2700 50  0001 C CNN
-F 2 "" H 4550 2850 50  0001 C CNN
-F 3 "~" H 4550 2850 50  0001 C CNN
-	1    4550 2850
+F 0 "#PWR?" H 3400 2000 50  0001 C CNN
+F 1 "Earth" H 3400 2100 50  0001 C CNN
+F 2 "" H 3400 2250 50  0001 C CNN
+F 3 "~" H 3400 2250 50  0001 C CNN
+	1    3400 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 5CB563C8
-P 5050 2850
+P 3900 2250
 AR Path="/5CAEA78E/5CB563C8" Ref="#PWR?"  Part="1" 
 AR Path="/5CB2DC4F/5CB563C8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5050 2600 50  0001 C CNN
-F 1 "Earth" H 5050 2700 50  0001 C CNN
-F 2 "" H 5050 2850 50  0001 C CNN
-F 3 "~" H 5050 2850 50  0001 C CNN
-	1    5050 2850
+F 0 "#PWR?" H 3900 2000 50  0001 C CNN
+F 1 "Earth" H 3900 2100 50  0001 C CNN
+F 2 "" H 3900 2250 50  0001 C CNN
+F 3 "~" H 3900 2250 50  0001 C CNN
+	1    3900 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 2500 4550 2500
+	3300 1900 3400 1900
 Wire Wire Line
-	4550 2500 4650 2500
-Connection ~ 4550 2500
+	3400 1900 3500 1900
+Connection ~ 3400 1900
 Wire Wire Line
-	4950 2500 5050 2500
+	3800 1900 3900 1900
 Wire Wire Line
-	5050 2800 5050 2850
+	3900 2200 3900 2250
 Wire Wire Line
-	4550 2800 4550 2850
+	3400 2200 3400 2250
 Wire Wire Line
-	5050 2500 5150 2500
-Connection ~ 5050 2500
+	3900 1900 4000 1900
+Connection ~ 3900 1900
 $Comp
 L RadioParts:FST3253 U?
 U 1 1 5CB5D844
-P 8100 2850
+P 6500 3100
 AR Path="/5CAEA78E/5CB5D844" Ref="U?"  Part="1" 
-AR Path="/5CB2DC4F/5CB5D844" Ref="U?"  Part="1" 
-F 0 "U?" H 8100 4031 50  0000 C CNN
-F 1 "FST3253" H 8100 3940 50  0000 C CNN
-F 2 "" H 8100 2850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS352" H 8100 2850 50  0001 C CNN
-	1    8100 2850
+AR Path="/5CB2DC4F/5CB5D844" Ref="U9"  Part="1" 
+F 0 "U9" H 6500 3400 50  0000 C CNN
+F 1 "FST3253" H 6500 1800 50  0000 C CNN
+F 2 "" H 6500 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS352" H 6500 3100 50  0001 C CNN
+	1    6500 3100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 1900 5100 1900
+Connection ~ 4950 1900
+Wire Wire Line
+	5300 1900 5400 1900
+Wire Wire Line
+	4200 1900 4300 1900
+Wire Wire Line
+	4600 1900 4750 1900
+Wire Wire Line
+	4750 1950 4750 1900
+Connection ~ 4750 1900
+Wire Wire Line
+	4750 1900 4950 1900
+Wire Wire Line
+	4750 2150 4750 2250
+Wire Wire Line
+	4950 2200 4950 2250
+$Comp
+L Device:C_Small C?
+U 1 1 5CB37F33
+P 4100 4300
+AR Path="/5CAEA78E/5CB37F33" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F33" Ref="C17"  Part="1" 
+F 0 "C17" V 3871 4300 50  0000 C CNN
+F 1 "100pF" V 3962 4300 50  0000 C CNN
+F 2 "" H 4100 4300 50  0001 C CNN
+F 3 "~" H 4100 4300 50  0001 C CNN
+	1    4100 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB37F39
+P 4450 4300
+AR Path="/5CAEA78E/5CB37F39" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F39" Ref="L10"  Part="1" 
+F 0 "L10" V 4655 4300 50  0000 C CNN
+F 1 "0.46uH" V 4564 4300 50  0000 C CNN
+F 2 "" H 4450 4300 50  0001 C CNN
+F 3 "~" H 4450 4300 50  0001 C CNN
+	1    4450 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB37F3F
+P 4950 4450
+AR Path="/5CAEA78E/5CB37F3F" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F3F" Ref="L11"  Part="1" 
+F 0 "L11" H 5100 4400 50  0000 C CNN
+F 1 "0.13uH" H 5150 4300 50  0000 C CNN
+F 2 "" H 4950 4450 50  0001 C CNN
+F 3 "~" H 4950 4450 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB37F45
+P 5200 4300
+AR Path="/5CAEA78E/5CB37F45" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F45" Ref="C19"  Part="1" 
+F 0 "C19" V 4971 4300 50  0000 C CNN
+F 1 "100pF" V 5062 4300 50  0000 C CNN
+F 2 "" H 5200 4300 50  0001 C CNN
+F 3 "~" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB37F4B
+P 5550 4300
+AR Path="/5CAEA78E/5CB37F4B" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F4B" Ref="L12"  Part="1" 
+F 0 "L12" V 5755 4300 50  0000 C CNN
+F 1 "0.46uH" V 5664 4300 50  0000 C CNN
+F 2 "" H 5550 4300 50  0001 C CNN
+F 3 "~" H 5550 4300 50  0001 C CNN
+	1    5550 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB37F51
+P 4750 4450
+AR Path="/5CAEA78E/5CB37F51" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F51" Ref="C18"  Part="1" 
+F 0 "C18" H 4900 4500 50  0000 C CNN
+F 1 "330pF" H 4900 4600 50  0000 C CNN
+F 2 "" H 4750 4450 50  0001 C CNN
+F 3 "~" H 4750 4450 50  0001 C CNN
+	1    4750 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB37F57
+P 4750 4650
+AR Path="/5CAEA78E/5CB37F57" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F57" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 4400 50  0001 C CNN
+F 1 "Earth" H 4750 4500 50  0001 C CNN
+F 2 "" H 4750 4650 50  0001 C CNN
+F 3 "~" H 4750 4650 50  0001 C CNN
+	1    4750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB37F5D
+P 4950 4650
+AR Path="/5CAEA78E/5CB37F5D" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB37F5D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 4400 50  0001 C CNN
+F 1 "Earth" H 4950 4500 50  0001 C CNN
+F 2 "" H 4950 4650 50  0001 C CNN
+F 3 "~" H 4950 4650 50  0001 C CNN
+	1    4950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4300 5100 4300
+Connection ~ 4950 4300
+Wire Wire Line
+	5300 4300 5400 4300
+Wire Wire Line
+	4200 4300 4300 4300
+Wire Wire Line
+	4600 4300 4750 4300
+Wire Wire Line
+	4750 4350 4750 4300
+Connection ~ 4750 4300
+Wire Wire Line
+	4750 4300 4950 4300
+Wire Wire Line
+	4750 4550 4750 4650
+Wire Wire Line
+	4950 4600 4950 4650
+$Comp
+L Device:C_Small C?
+U 1 1 5CB4CC08
+P 4100 2700
+AR Path="/5CAEA78E/5CB4CC08" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC08" Ref="C11"  Part="1" 
+F 0 "C11" V 3871 2700 50  0000 C CNN
+F 1 "390pF" V 3962 2700 50  0000 C CNN
+F 2 "" H 4100 2700 50  0001 C CNN
+F 3 "~" H 4100 2700 50  0001 C CNN
+	1    4100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB4CC0E
+P 4450 2700
+AR Path="/5CAEA78E/5CB4CC0E" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC0E" Ref="L4"  Part="1" 
+F 0 "L4" V 4655 2700 50  0000 C CNN
+F 1 "2.0uH" V 4564 2700 50  0000 C CNN
+F 2 "" H 4450 2700 50  0001 C CNN
+F 3 "~" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB4CC14
+P 4950 2850
+AR Path="/5CAEA78E/5CB4CC14" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC14" Ref="L5"  Part="1" 
+F 0 "L5" H 5100 2800 50  0000 C CNN
+F 1 "0.46uH" H 5150 2700 50  0000 C CNN
+F 2 "" H 4950 2850 50  0001 C CNN
+F 3 "~" H 4950 2850 50  0001 C CNN
+	1    4950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB4CC1A
+P 5200 2700
+AR Path="/5CAEA78E/5CB4CC1A" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC1A" Ref="C13"  Part="1" 
+F 0 "C13" V 4971 2700 50  0000 C CNN
+F 1 "390pF" V 5062 2700 50  0000 C CNN
+F 2 "" H 5200 2700 50  0001 C CNN
+F 3 "~" H 5200 2700 50  0001 C CNN
+	1    5200 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB4CC20
+P 5550 2700
+AR Path="/5CAEA78E/5CB4CC20" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC20" Ref="L6"  Part="1" 
+F 0 "L6" V 5755 2700 50  0000 C CNN
+F 1 "2.0uH" V 5664 2700 50  0000 C CNN
+F 2 "" H 5550 2700 50  0001 C CNN
+F 3 "~" H 5550 2700 50  0001 C CNN
+	1    5550 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB4CC26
+P 4750 2850
+AR Path="/5CAEA78E/5CB4CC26" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC26" Ref="C12"  Part="1" 
+F 0 "C12" H 4900 2900 50  0000 C CNN
+F 1 "1500pF" H 4900 3000 50  0000 C CNN
+F 2 "" H 4750 2850 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB4CC2C
+P 4750 3050
+AR Path="/5CAEA78E/5CB4CC2C" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC2C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 2800 50  0001 C CNN
+F 1 "Earth" H 4750 2900 50  0001 C CNN
+F 2 "" H 4750 3050 50  0001 C CNN
+F 3 "~" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB4CC32
+P 4950 3050
+AR Path="/5CAEA78E/5CB4CC32" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC32" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 2800 50  0001 C CNN
+F 1 "Earth" H 4950 2900 50  0001 C CNN
+F 2 "" H 4950 3050 50  0001 C CNN
+F 3 "~" H 4950 3050 50  0001 C CNN
+	1    4950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R_?
+U 1 1 5CB4CC38
+P 3400 2850
+AR Path="/5CAEA78E/5CB4CC38" Ref="R_?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC38" Ref="R20"  Part="1" 
+F 0 "R20" H 3200 2850 50  0000 L CNN
+F 1 "75" H 3250 2750 50  0000 L CNN
+F 2 "" V 3440 2840 50  0001 C CNN
+F 3 "~" H 3400 2850 50  0001 C CNN
+	1    3400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R_?
+U 1 1 5CB4CC3E
+P 3650 2700
+AR Path="/5CAEA78E/5CB4CC3E" Ref="R_?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC3E" Ref="R21"  Part="1" 
+F 0 "R21" V 3450 2650 50  0000 L CNN
+F 1 "120" V 3550 2650 50  0000 L CNN
+F 2 "" V 3690 2690 50  0001 C CNN
+F 3 "~" H 3650 2700 50  0001 C CNN
+	1    3650 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R_?
+U 1 1 5CB4CC44
+P 3900 2850
+AR Path="/5CAEA78E/5CB4CC44" Ref="R_?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC44" Ref="R22"  Part="1" 
+F 0 "R22" H 4000 2850 50  0000 L CNN
+F 1 "75" H 4000 2750 50  0000 L CNN
+F 2 "" V 3940 2840 50  0001 C CNN
+F 3 "~" H 3900 2850 50  0001 C CNN
+	1    3900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB4CC4A
+P 3200 2700
+AR Path="/5CAEA78E/5CB4CC4A" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC4A" Ref="C10"  Part="1" 
+F 0 "C10" V 2971 2700 50  0000 C CNN
+F 1 "0.047uF" V 3062 2700 50  0000 C CNN
+F 2 "" H 3200 2700 50  0001 C CNN
+F 3 "~" H 3200 2700 50  0001 C CNN
+	1    3200 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB4CC50
+P 3400 3050
+AR Path="/5CAEA78E/5CB4CC50" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC50" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 2800 50  0001 C CNN
+F 1 "Earth" H 3400 2900 50  0001 C CNN
+F 2 "" H 3400 3050 50  0001 C CNN
+F 3 "~" H 3400 3050 50  0001 C CNN
+	1    3400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB4CC56
+P 3900 3050
+AR Path="/5CAEA78E/5CB4CC56" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB4CC56" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 2800 50  0001 C CNN
+F 1 "Earth" H 3900 2900 50  0001 C CNN
+F 2 "" H 3900 3050 50  0001 C CNN
+F 3 "~" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2700 3400 2700
+Wire Wire Line
+	3400 2700 3500 2700
+Connection ~ 3400 2700
+Wire Wire Line
+	3800 2700 3900 2700
+Wire Wire Line
+	3900 3000 3900 3050
+Wire Wire Line
+	3400 3000 3400 3050
+Wire Wire Line
+	3900 2700 4000 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	4950 2700 5100 2700
+Connection ~ 4950 2700
+Wire Wire Line
+	5300 2700 5400 2700
+Wire Wire Line
+	4200 2700 4300 2700
+Wire Wire Line
+	4600 2700 4750 2700
+Wire Wire Line
+	4750 2750 4750 2700
+Connection ~ 4750 2700
+Wire Wire Line
+	4750 2700 4950 2700
+Wire Wire Line
+	4750 2950 4750 3050
+Wire Wire Line
+	4950 3000 4950 3050
+$Comp
+L Device:C_Small C?
+U 1 1 5CB521EB
+P 4100 3500
+AR Path="/5CAEA78E/5CB521EB" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB521EB" Ref="C14"  Part="1" 
+F 0 "C14" V 3871 3500 50  0000 C CNN
+F 1 "180pF" V 3962 3500 50  0000 C CNN
+F 2 "" H 4100 3500 50  0001 C CNN
+F 3 "~" H 4100 3500 50  0001 C CNN
+	1    4100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB521F1
+P 4450 3500
+AR Path="/5CAEA78E/5CB521F1" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB521F1" Ref="L7"  Part="1" 
+F 0 "L7" V 4655 3500 50  0000 C CNN
+F 1 "1uH" V 4564 3500 50  0000 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "~" H 4450 3500 50  0001 C CNN
+	1    4450 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB521F7
+P 4950 3650
+AR Path="/5CAEA78E/5CB521F7" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB521F7" Ref="L8"  Part="1" 
+F 0 "L8" H 5100 3600 50  0000 C CNN
+F 1 "0.27uH" H 5150 3500 50  0000 C CNN
+F 2 "" H 4950 3650 50  0001 C CNN
+F 3 "~" H 4950 3650 50  0001 C CNN
+	1    4950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB521FD
+P 5200 3500
+AR Path="/5CAEA78E/5CB521FD" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB521FD" Ref="C16"  Part="1" 
+F 0 "C16" V 4971 3500 50  0000 C CNN
+F 1 "180pF" V 5062 3500 50  0000 C CNN
+F 2 "" H 5200 3500 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5CB52203
+P 5550 3500
+AR Path="/5CAEA78E/5CB52203" Ref="L?"  Part="1" 
+AR Path="/5CB2DC4F/5CB52203" Ref="L9"  Part="1" 
+F 0 "L9" V 5755 3500 50  0000 C CNN
+F 1 "1uH" V 5664 3500 50  0000 C CNN
+F 2 "" H 5550 3500 50  0001 C CNN
+F 3 "~" H 5550 3500 50  0001 C CNN
+	1    5550 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB52209
+P 4750 3650
+AR Path="/5CAEA78E/5CB52209" Ref="C?"  Part="1" 
+AR Path="/5CB2DC4F/5CB52209" Ref="C15"  Part="1" 
+F 0 "C15" H 4900 3700 50  0000 C CNN
+F 1 "680pF" H 4900 3800 50  0000 C CNN
+F 2 "" H 4750 3650 50  0001 C CNN
+F 3 "~" H 4750 3650 50  0001 C CNN
+	1    4750 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB5220F
+P 4750 3850
+AR Path="/5CAEA78E/5CB5220F" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB5220F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 3600 50  0001 C CNN
+F 1 "Earth" H 4750 3700 50  0001 C CNN
+F 2 "" H 4750 3850 50  0001 C CNN
+F 3 "~" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB52215
+P 4950 3850
+AR Path="/5CAEA78E/5CB52215" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB52215" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 3600 50  0001 C CNN
+F 1 "Earth" H 4950 3700 50  0001 C CNN
+F 2 "" H 4950 3850 50  0001 C CNN
+F 3 "~" H 4950 3850 50  0001 C CNN
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3500 5100 3500
+Connection ~ 4950 3500
+Wire Wire Line
+	5300 3500 5400 3500
+Wire Wire Line
+	4200 3500 4300 3500
+Wire Wire Line
+	4600 3500 4750 3500
+Wire Wire Line
+	4750 3550 4750 3500
+Connection ~ 4750 3500
+Wire Wire Line
+	4750 3500 4950 3500
+Wire Wire Line
+	4750 3750 4750 3850
+Wire Wire Line
+	4950 3800 4950 3850
+Wire Wire Line
+	2800 2700 2800 2600
+Wire Wire Line
+	2800 2600 2900 2600
+Wire Wire Line
+	2900 2600 2900 1900
+Wire Wire Line
+	2900 1900 3100 1900
+Wire Wire Line
+	2800 3000 2800 2900
+Wire Wire Line
+	2800 2900 3000 2900
+Wire Wire Line
+	3000 2900 3000 2700
+Wire Wire Line
+	3000 2700 3100 2700
+Wire Wire Line
+	2800 3200 2800 3300
+Wire Wire Line
+	2800 3300 3000 3300
+Wire Wire Line
+	3000 3300 3000 3500
+Wire Wire Line
+	3000 3500 4000 3500
+Wire Wire Line
+	2800 3500 2800 3600
+Wire Wire Line
+	2800 3600 2900 3600
+Wire Wire Line
+	2900 3600 2900 4300
+Wire Wire Line
+	2900 4300 4000 4300
+Connection ~ 2800 3600
+Wire Wire Line
+	1800 4100 2300 4100
+$Comp
+L power:Earth #PWR?
+U 1 1 5CBA2487
+P 2300 4150
+AR Path="/5CAEA78E/5CBA2487" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CBA2487" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 3900 50  0001 C CNN
+F 1 "Earth" H 2300 4000 50  0001 C CNN
+F 2 "" H 2300 4150 50  0001 C CNN
+F 3 "~" H 2300 4150 50  0001 C CNN
+	1    2300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4100 2300 4150
+Text GLabel 1700 2400 0    50   Input ~ 6
+FSEL-0
+Text GLabel 1700 2500 0    50   Input ~ 6
+FSEL-1
+Wire Wire Line
+	1700 2400 1800 2400
+Wire Wire Line
+	1700 2500 1800 2500
+Wire Wire Line
+	1800 3150 1800 3050
+Wire Wire Line
+	1800 3050 1250 3050
+Connection ~ 1800 3050
+Connection ~ 2300 4100
+Connection ~ 1800 3800
+Wire Wire Line
+	1800 3800 1800 4100
+Wire Wire Line
+	1800 3700 1800 3800
+Connection ~ 2800 3300
+Connection ~ 2800 2900
+Connection ~ 2800 2600
+$Comp
+L RadioParts:FST3253 U?
+U 1 1 5CB56286
+P 2300 3100
+AR Path="/5CAEA78E/5CB56286" Ref="U?"  Part="1" 
+AR Path="/5CB2DC4F/5CB56286" Ref="U8"  Part="1" 
+F 0 "U8" H 2300 3400 50  0000 C CNN
+F 1 "FST3253" H 2300 1800 50  0000 C CNN
+F 2 "" H 2300 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS352" H 2300 3100 50  0001 C CNN
+	1    2300 3100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2200 2100 0    50   Input ~ 0
+5VDC
+Wire Wire Line
+	2200 2100 2300 2100
+$Comp
+L power:Earth #PWR?
+U 1 1 5CBB51CB
+P 6500 4150
+AR Path="/5CAEA78E/5CBB51CB" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CBB51CB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6500 3900 50  0001 C CNN
+F 1 "Earth" H 6500 4000 50  0001 C CNN
+F 2 "" H 6500 4150 50  0001 C CNN
+F 3 "~" H 6500 4150 50  0001 C CNN
+	1    6500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3700 7000 3800
+Wire Wire Line
+	7000 3800 7000 4100
+Wire Wire Line
+	7000 4100 6500 4100
+Connection ~ 7000 3800
+Wire Wire Line
+	6500 4100 6500 4150
+Connection ~ 6500 4100
+Text GLabel 6600 2100 2    50   Input ~ 0
+5VDC
+Wire Wire Line
+	6500 2100 6600 2100
+Text GLabel 7100 2400 2    50   Input ~ 6
+FSEL-0
+Text GLabel 7100 2500 2    50   Input ~ 6
+FSEL-1
+Wire Wire Line
+	7000 2400 7100 2400
+Wire Wire Line
+	7000 2500 7100 2500
+Wire Wire Line
+	7000 3050 7000 3150
+Wire Wire Line
+	7000 3150 7500 3150
+Connection ~ 7000 3150
+Wire Wire Line
+	5800 2700 5800 2900
+Wire Wire Line
+	5700 2700 5800 2700
+Wire Wire Line
+	5800 2900 6000 2900
+Wire Wire Line
+	6000 2900 6000 3000
+Connection ~ 6000 2900
+Wire Wire Line
+	6000 2700 6000 2600
+Wire Wire Line
+	6000 2600 5900 2600
+Wire Wire Line
+	5900 2600 5900 1900
+Wire Wire Line
+	5700 1900 5900 1900
+Connection ~ 6000 2600
+Wire Wire Line
+	6000 3200 6000 3300
+Wire Wire Line
+	6000 3300 5800 3300
+Wire Wire Line
+	5800 3300 5800 3500
+Wire Wire Line
+	5700 3500 5800 3500
+Connection ~ 6000 3300
+Wire Wire Line
+	6000 3500 6000 3600
+Wire Wire Line
+	6000 3600 5900 3600
+Wire Wire Line
+	5900 3600 5900 4300
+Wire Wire Line
+	5700 4300 5900 4300
+Connection ~ 6000 3600
 $EndSCHEMATC

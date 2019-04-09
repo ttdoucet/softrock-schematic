@@ -113,6 +113,8 @@ $Comp
 L power:Earth #PWR?
 U 1 1 5CACAA9B
 P 2650 1850
+AR Path="/5CAEA78E/5CACAA9B" Ref="#PWR?"  Part="1" 
+AR Path="/5CACAA9B" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2650 1600 50  0001 C CNN
 F 1 "Earth" H 2650 1700 50  0001 C CNN
 F 2 "" H 2650 1850 50  0001 C CNN
@@ -124,6 +126,8 @@ $Comp
 L power:Earth #PWR?
 U 1 1 5CACAAA1
 P 3550 1850
+AR Path="/5CAEA78E/5CACAAA1" Ref="#PWR?"  Part="1" 
+AR Path="/5CACAAA1" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3550 1600 50  0001 C CNN
 F 1 "Earth" H 3550 1700 50  0001 C CNN
 F 2 "" H 3550 1850 50  0001 C CNN
@@ -135,6 +139,8 @@ $Comp
 L power:Earth #PWR?
 U 1 1 5CACAAA7
 P 3200 1850
+AR Path="/5CAEA78E/5CACAAA7" Ref="#PWR?"  Part="1" 
+AR Path="/5CACAAA7" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3200 1600 50  0001 C CNN
 F 1 "Earth" H 3200 1700 50  0001 C CNN
 F 2 "" H 3200 1850 50  0001 C CNN
@@ -146,6 +152,8 @@ $Comp
 L power:Earth #PWR?
 U 1 1 5CACAAAD
 P 2050 1850
+AR Path="/5CAEA78E/5CACAAAD" Ref="#PWR?"  Part="1" 
+AR Path="/5CACAAAD" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2050 1600 50  0001 C CNN
 F 1 "Earth" H 2050 1700 50  0001 C CNN
 F 2 "" H 2050 1850 50  0001 C CNN
@@ -170,7 +178,7 @@ Wire Wire Line
 	2000 1750 2050 1750
 Wire Wire Line
 	2050 1750 2050 1850
-Text GLabel 3750 1550 2    50   Input ~ 0
+Text GLabel 3750 1550 2    50   Input ~ 6
 5VDC
 Wire Wire Line
 	3550 1550 3750 1550
