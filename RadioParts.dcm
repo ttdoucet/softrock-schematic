@@ -64,4 +64,8 @@ $CMP FST3253
 D Dual 4 to 1 line Multiplexer
 $ENDCMP
 #
+$CMP FST3253-ALT1
+D Dual 4 to 1 line Multiplexer
+$ENDCMP
+#
 #End Doc Library
