@@ -168,6 +168,58 @@ X 2A 9 500 -50 200 L 50 50 1 0 P
 ENDDRAW
 ENDDEF
 #
+# Jumper_Crossed
+#
+DEF Jumper_Crossed JP 0 0 Y N 1 F N
+F0 "JP" 0 200 50 H V C CNN
+F1 "Jumper_Crossed" 0 -250 50 H V C CNN
+F2 "" 200 175 50 H I C CNN
+F3 "" -175 175 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+C -125 -100 25 0 1 0 N
+C -125 100 25 0 1 0 N
+C 125 -100 25 0 1 0 N
+C 125 100 25 0 1 0 N
+P 2 0 1 0 -75 -100 75 -100 N
+P 2 0 1 0 -75 -75 75 75 N
+P 2 0 1 0 -75 75 75 -75 N
+P 2 0 1 0 -75 100 75 100 N
+X ~ ~ -200 -100 50 R 50 50 1 1 P
+X ~ ~ -200 100 50 R 50 50 1 1 P
+X ~ ~ 200 -100 50 L 50 50 1 1 P
+X ~ ~ 200 100 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_Crossed_Small
+#
+DEF Jumper_Crossed_Small JP 0 0 Y N 1 F N
+F0 "JP" 0 200 50 H V C CNN
+F1 "Jumper_Crossed_Small" 0 -250 50 H V C CNN
+F2 "" 150 125 50 H I C CNN
+F3 "" -125 125 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+C -75 -50 25 0 1 0 N
+C -75 50 25 0 1 0 N
+C 75 -50 25 0 1 0 N
+C 75 50 25 0 1 0 N
+P 2 0 1 0 -25 -50 25 -50 N
+P 2 0 1 0 -25 -25 25 25 N
+P 2 0 1 0 -25 25 25 -25 N
+P 2 0 1 0 -25 50 25 50 N
+X ~ ~ -150 -50 50 R 50 50 1 1 P
+X ~ ~ -150 50 50 R 50 50 1 1 P
+X ~ ~ 150 -50 50 L 50 50 1 1 P
+X ~ ~ 150 50 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RF_Transformer
 #
 DEF ~RF_Transformer T 0 10 N N 1 F N

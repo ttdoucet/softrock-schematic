@@ -68,4 +68,14 @@ $CMP FST3253-ALT1
 D Dual 4 to 1 line Multiplexer
 $ENDCMP
 #
+$CMP Jumper_Crossed
+D Straight thru or crossed jumper
+F ~
+$ENDCMP
+#
+$CMP Jumper_Crossed_Small
+D Straight thru or crossed jumper
+F ~
+$ENDCMP
+#
 #End Doc Library
