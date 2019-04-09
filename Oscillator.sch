@@ -321,8 +321,6 @@ F 3 "" H 4400 1500 50  0001 C CNN
 	1    4400 1500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3800 2750
-NoConn ~ 3800 2850
 $Comp
 L Device:R_US R4
 U 1 1 5CAB7256
@@ -690,7 +688,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 2100 7800 2100
 Connection ~ 7750 2100
-Text Label 7800 2100 0    50   ~ 6
+Text Label 7800 2100 0    50   ~ 0
 5VDC
 Wire Wire Line
 	7650 2400 7750 2400
@@ -757,25 +755,25 @@ Wire Wire Line
 Connection ~ 6750 1500
 Wire Wire Line
 	6750 1500 6750 1700
-Text Label 7800 2400 0    50   ~ 6
+Text Label 7800 2400 0    50   ~ 0
 5VDC
 $Comp
-L Isolator:LTV-817 U?
+L Isolator:LTV-817 U4
 U 1 1 5CB2F9DE
 P 4000 3500
-F 0 "U?" V 4000 3688 50  0001 L CNN
-F 1 "LTV-817" V 4045 3688 50  0001 L CNN
+F 0 "U4" V 3950 3200 50  0000 L CNN
+F 1 "LTV-817" V 4050 3000 50  0000 L CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 3800 3300 50  0001 L CIN
 F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 4000 3400 50  0001 L CNN
 	1    4000 3500
 	0    1    1    0   
 $EndComp
 $Comp
-L Isolator:LTV-817 U?
+L Isolator:LTV-817 U5
 U 1 1 5CB300D7
 P 4400 3500
-F 0 "U?" V 4400 3688 50  0001 L CNN
-F 1 "LTV-817" V 4445 3688 50  0001 L CNN
+F 0 "U5" V 4350 3700 50  0000 L CNN
+F 1 "LTV-817" V 4445 3688 50  0000 L CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 4200 3300 50  0001 L CIN
 F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 4400 3400 50  0001 L CNN
 	1    4400 3500
@@ -811,12 +809,12 @@ Wire Wire Line
 	3800 2750 4300 2750
 Wire Wire Line
 	4300 2750 4300 2900
-Text Label 4550 3200 0    50   ~ 6
+Text Label 4550 3200 0    50   ~ 0
 VBUS
 Wire Wire Line
 	4500 3200 4550 3200
 Connection ~ 4500 3200
-Text Label 3250 1850 0    50   ~ 6
+Text Label 3250 1850 0    50   ~ 0
 VBUS
 Connection ~ 3050 1850
 Wire Wire Line
@@ -851,7 +849,7 @@ Wire Wire Line
 	4100 4600 4500 4600
 Wire Wire Line
 	4500 4600 4500 4550
-Text Label 4550 4600 0    50   ~ 6
+Text Label 4550 4600 0    50   ~ 0
 5VDC
 Wire Wire Line
 	4500 4600 4550 4600
@@ -861,10 +859,10 @@ Wire Wire Line
 Wire Wire Line
 	4500 3800 4500 3950
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR0122
 U 1 1 5CBA1D00
 P 3900 3850
-F 0 "#PWR?" H 3900 3600 50  0001 C CNN
+F 0 "#PWR0122" H 3900 3600 50  0001 C CNN
 F 1 "Earth" H 3900 3700 50  0001 C CNN
 F 2 "" H 3900 3850 50  0001 C CNN
 F 3 "~" H 3900 3850 50  0001 C CNN
@@ -872,10 +870,10 @@ F 3 "~" H 3900 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR0123
 U 1 1 5CBA23F5
 P 4300 3850
-F 0 "#PWR?" H 4300 3600 50  0001 C CNN
+F 0 "#PWR0123" H 4300 3600 50  0001 C CNN
 F 1 "Earth" H 4300 3700 50  0001 C CNN
 F 2 "" H 4300 3850 50  0001 C CNN
 F 3 "~" H 4300 3850 50  0001 C CNN
@@ -905,19 +903,19 @@ Wire Wire Line
 	7700 1200 7800 1200
 Wire Wire Line
 	7550 3350 7650 3350
-Text Label 7550 3350 2    50   ~ 6
+Text Label 7550 3350 2    50   ~ 0
 5VDC
-Text GLabel 7650 3350 2    50   Input ~ 6
+Text GLabel 7650 3350 2    50   Input ~ 0
 5VDC
-Text GLabel 5000 3950 2    50   Input ~ 6
+Text GLabel 5000 3950 2    50   Output ~ 0
 FSEL-0
-Text GLabel 5000 4150 2    50   Input ~ 6
+Text GLabel 5000 4150 2    50   Output ~ 0
 FSEL-1
-Text GLabel 8500 1700 2    50   Input ~ 6
+Text GLabel 8500 1700 2    50   Output ~ 0
 QSD-CLK-1
-Text GLabel 8500 2800 2    50   Input ~ 6
+Text GLabel 8500 2800 2    50   Output ~ 0
 QSD-CLK-0
-Text Label 7800 1200 0    50   ~ 6
+Text Label 7800 1200 0    50   ~ 0
 5VDC
 Wire Wire Line
 	8250 1700 8500 1700
