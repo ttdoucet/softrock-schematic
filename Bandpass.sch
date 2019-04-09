@@ -769,19 +769,6 @@ Wire Wire Line
 Connection ~ 4400 3400
 Connection ~ 4400 3000
 Connection ~ 4400 2700
-$Comp
-L RadioParts:FST3253 U?
-U 1 1 5CB56286
-P 3900 3200
-AR Path="/5CAEA78E/5CB56286" Ref="U?"  Part="1" 
-AR Path="/5CB2DC4F/5CB56286" Ref="U8"  Part="1" 
-F 0 "U8" H 3900 3500 50  0000 C CNN
-F 1 "FST3253" H 3900 1900 50  0000 C CNN
-F 2 "" H 3900 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS352" H 3900 3200 50  0001 C CNN
-	1    3900 3200
-	-1   0    0    -1  
-$EndComp
 Text GLabel 3800 1950 0    50   Input ~ 0
 5VDC
 Wire Wire Line
@@ -1047,4 +1034,17 @@ Wire Wire Line
 Wire Wire Line
 	8600 3150 8600 3250
 Connection ~ 8600 3150
+$Comp
+L RadioParts:FST3253 U?
+U 1 1 5CB56286
+P 3900 3200
+AR Path="/5CAEA78E/5CB56286" Ref="U?"  Part="1" 
+AR Path="/5CB2DC4F/5CB56286" Ref="U8"  Part="1" 
+F 0 "U8" H 3900 3500 50  0000 C CNN
+F 1 "FST3253" H 3900 1900 50  0000 C CNN
+F 2 "" H 3900 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS352" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
