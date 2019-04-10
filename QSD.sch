@@ -17,150 +17,749 @@ $EndDescr
 $Comp
 L Amplifier_Operational:OP249 U11
 U 1 1 5CAD4B64
-P 5950 2500
-F 0 "U11" H 6050 3000 50  0000 L CNN
-F 1 "LT6231" H 6050 2900 50  0000 L CNN
-F 2 "" H 5950 2500 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 5950 2500 50  0001 C CNN
-	1    5950 2500
-	1    0    0    -1  
+P 6150 2700
+F 0 "U11" H 6050 2700 50  0000 L CNN
+F 1 "LT6231" H 6250 3100 50  0001 L CNN
+F 2 "" H 6150 2700 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 6150 2700 50  0001 C CNN
+	1    6150 2700
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:OP249 U11
 U 2 1 5CAD56A1
-P 6000 3750
-F 0 "U11" H 6250 4200 50  0000 L CNN
-F 1 "LT6231" H 6250 4100 50  0000 L CNN
-F 2 "" H 6000 3750 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 6000 3750 50  0001 C CNN
-	2    6000 3750
-	1    0    0    -1  
+P 7250 2700
+F 0 "U11" H 7150 2700 50  0000 L CNN
+F 1 "LT6231" H 7500 3050 50  0001 L CNN
+F 2 "" H 7250 2700 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 7250 2700 50  0001 C CNN
+	2    7250 2700
+	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:OP249 U11
-U 3 1 5CAD6BA3
-P 5950 2500
-F 0 "U11" H 5908 2500 50  0001 L CNN
-F 1 "LT6231" H 5908 2455 50  0001 L CNN
-F 2 "" H 5950 2500 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 5950 2500 50  0001 C CNN
-	3    5950 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Transformer_1P_SS T?
+L Device:Transformer_1P_SS T3
 U 1 1 5CAD4E81
-P 4500 5450
-F 0 "T?" H 4500 5831 50  0000 C CNN
-F 1 "Transformer_1P_SS" H 4500 5740 50  0000 C CNN
-F 2 "" H 4500 5450 50  0001 C CNN
-F 3 "~" H 4500 5450 50  0001 C CNN
-	1    4500 5450
+P 3200 4100
+F 0 "T3" H 3200 4400 50  0000 C CNN
+F 1 "Transformer_1P_SS" H 3200 4390 50  0001 C CNN
+F 2 "" H 3200 4100 50  0001 C CNN
+F 3 "~" H 3200 4100 50  0001 C CNN
+	1    3200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R27
 U 1 1 5CAD525A
-P 3150 3150
-F 0 "R?" H 3218 3196 50  0000 L CNN
-F 1 "R_US" H 3218 3105 50  0000 L CNN
-F 2 "" V 3190 3140 50  0001 C CNN
-F 3 "~" H 3150 3150 50  0001 C CNN
-	1    3150 3150
+P 3300 2850
+F 0 "R27" H 3368 2896 50  0000 L CNN
+F 1 "2.2k" H 3368 2805 50  0000 L CNN
+F 2 "" V 3340 2840 50  0001 C CNN
+F 3 "~" H 3300 2850 50  0001 C CNN
+	1    3300 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C42
 U 1 1 5CAD55F6
-P 4000 3200
-F 0 "C?" H 4092 3246 50  0000 L CNN
-F 1 "C_Small" H 4092 3155 50  0000 L CNN
-F 2 "" H 4000 3200 50  0001 C CNN
-F 3 "~" H 4000 3200 50  0001 C CNN
-	1    4000 3200
+P 3100 3250
+F 0 "C42" H 2850 3250 50  0000 L CNN
+F 1 "0.1uF" H 2850 3150 50  0000 L CNN
+F 2 "" H 3100 3250 50  0001 C CNN
+F 3 "~" H 3100 3250 50  0001 C CNN
+	1    3100 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 5CADAE9D
-P 4400 4600
+P 3600 4650
 AR Path="/5CAEA78E/5CADAE9D" Ref="#PWR?"  Part="1" 
 AR Path="/5CB2DC4F/5CADAE9D" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5E48B/5CADAE9D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4400 4350 50  0001 C CNN
-F 1 "Earth" H 4400 4450 50  0001 C CNN
-F 2 "" H 4400 4600 50  0001 C CNN
-F 3 "~" H 4400 4600 50  0001 C CNN
-	1    4400 4600
+F 0 "#PWR?" H 3600 4400 50  0001 C CNN
+F 1 "Earth" H 3600 4500 50  0001 C CNN
+F 2 "" H 3600 4650 50  0001 C CNN
+F 3 "~" H 3600 4650 50  0001 C CNN
+	1    3600 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 5100 3350 0    50   Input ~ 0
+Text GLabel 3200 2600 0    50   Input ~ 0
 5VDC
-Text GLabel 5100 3550 0    50   Input ~ 0
+Text GLabel 4200 3600 0    50   Input ~ 0
 QSD-CLK-0
-Text GLabel 5100 3750 0    50   Input ~ 0
+Text GLabel 4200 3700 0    50   Input ~ 0
 QSD-CLK-1
-Text GLabel 5100 3950 0    50   Input ~ 0
+Text GLabel 2800 3900 0    50   Input ~ 0
 FILTERED-RF
 $Comp
 L RadioParts:FST3253-ALT1 U?
 U 1 1 5CAF392D
-P 3150 4850
+P 4700 4250
 AR Path="/5CAF392D" Ref="U?"  Part="1" 
-AR Path="/5CB5E48B/5CAF392D" Ref="U?"  Part="1" 
-F 0 "U?" H 3150 6031 50  0000 C CNN
-F 1 "FST3253-ALT1" H 3150 5940 50  0000 C CNN
-F 2 "" H 3150 4850 50  0001 C CNN
-F 3 "" H 3150 4850 50  0001 C CNN
-	1    3150 4850
+AR Path="/5CB5E48B/5CAF392D" Ref="U10"  Part="1" 
+F 0 "U10" H 4700 4100 50  0000 C CNN
+F 1 "FST3253" H 4400 3400 50  0000 C CNN
+F 2 "" H 4700 4250 50  0001 C CNN
+F 3 "" H 4700 4250 50  0001 C CNN
+	1    4700 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L RadioParts:AUDIO-JACK-3 J?
-U 1 1 5CAD70B8
-P 6250 5300
-F 0 "J?" H 5897 5374 60  0000 R CNN
-F 1 "AUDIO-JACK-3" H 5897 5480 60  0000 R CNN
-F 2 "" H 6000 5250 60  0000 C CNN
-F 3 "" H 6000 5250 60  0000 C CNN
-	1    6250 5300
-	-1   0    0    1   
+L Device:C_Small C23
+U 1 1 5CAF534E
+P 7250 2150
+F 0 "C23" V 7350 2200 50  0000 L CNN
+F 1 "390pF" V 7350 2150 50  0000 R CNN
+F 2 "" H 7250 2150 50  0001 C CNN
+F 3 "~" H 7250 2150 50  0001 C CNN
+	1    7250 2150
+	0    -1   -1   0   
 $EndComp
 $Comp
-L RadioParts:Jumper_Crossed_Small JP?
-U 1 1 5CAD70BE
-P 5850 5050
-F 0 "JP?" V 5804 5152 50  0000 L CNN
-F 1 "RX Option" V 5895 5152 50  0000 L CNN
-F 2 "" H 6000 5175 50  0001 C CNN
-F 3 "~" H 5725 5175 50  0001 C CNN
-	1    5850 5050
-	0    1    1    0   
+L Device:R_US R32
+U 1 1 5CAF7396
+P 7250 2400
+F 0 "R32" V 7350 2500 50  0000 C CNN
+F 1 "4.99k" V 7350 2300 50  0000 C CNN
+F 2 "" V 7290 2390 50  0001 C CNN
+F 3 "~" H 7250 2400 50  0001 C CNN
+	1    7250 2400
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6000 5300 5900 5300
+	7550 2700 7650 2700
 Wire Wire Line
-	5900 5300 5900 5200
+	7650 2700 7650 2400
 Wire Wire Line
-	5800 5200 5800 5400
+	7650 2400 7400 2400
 Wire Wire Line
-	5800 5400 6000 5400
+	6950 2600 6850 2600
+Wire Wire Line
+	6850 2600 6850 2400
+Wire Wire Line
+	6850 2400 7100 2400
+Wire Wire Line
+	7350 2150 7650 2150
+Wire Wire Line
+	7650 2150 7650 2400
+Connection ~ 7650 2400
+Wire Wire Line
+	7150 2150 6850 2150
+Wire Wire Line
+	6850 2150 6850 2400
+Connection ~ 6850 2400
+Connection ~ 7650 2700
+$Comp
+L Device:C_Small C24
+U 1 1 5CB0E0D8
+P 6150 2150
+F 0 "C24" V 6250 2200 50  0000 L CNN
+F 1 "390pF" V 6250 2150 50  0000 R CNN
+F 2 "" H 6150 2150 50  0001 C CNN
+F 3 "~" H 6150 2150 50  0001 C CNN
+	1    6150 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R33
+U 1 1 5CB0E0DE
+P 6150 2400
+F 0 "R33" V 6250 2500 50  0000 C CNN
+F 1 "4.99k" V 6250 2300 50  0000 C CNN
+F 2 "" V 6190 2390 50  0001 C CNN
+F 3 "~" H 6150 2400 50  0001 C CNN
+	1    6150 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 2700 6550 2400
+Wire Wire Line
+	6550 2400 6300 2400
+Wire Wire Line
+	5750 2600 5750 2400
+Wire Wire Line
+	5750 2400 6000 2400
+Wire Wire Line
+	6250 2150 6550 2150
+Wire Wire Line
+	6550 2150 6550 2400
+Connection ~ 6550 2400
+Wire Wire Line
+	6050 2150 5750 2150
+Wire Wire Line
+	5750 2150 5750 2400
+Connection ~ 5750 2400
+Wire Wire Line
+	5750 2600 5850 2600
+Wire Wire Line
+	6450 2700 6550 2700
+Connection ~ 6550 2700
+Wire Wire Line
+	5850 2800 5750 2800
+Wire Wire Line
+	5750 2800 5750 3050
+Wire Wire Line
+	5750 3050 6250 3050
+Wire Wire Line
+	6850 3050 6850 2800
+Wire Wire Line
+	6850 2800 6950 2800
+$Comp
+L Device:C_Small C22
+U 1 1 5CB2144F
+P 6250 3200
+F 0 "C22" H 6000 3200 50  0000 L CNN
+F 1 "4.7uF" H 6150 3100 50  0000 R CNN
+F 2 "" H 6250 3200 50  0001 C CNN
+F 3 "~" H 6250 3200 50  0001 C CNN
+	1    6250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3100 6250 3050
+Connection ~ 6250 3050
+Wire Wire Line
+	6250 3050 6850 3050
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB230D2
+P 6250 3350
+AR Path="/5CAEA78E/5CB230D2" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB230D2" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CB230D2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6250 3100 50  0001 C CNN
+F 1 "Earth" H 6250 3200 50  0001 C CNN
+F 2 "" H 6250 3350 50  0001 C CNN
+F 3 "~" H 6250 3350 50  0001 C CNN
+	1    6250 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3300 6250 3350
+Connection ~ 5750 3050
+Wire Wire Line
+	4200 3900 4200 4000
+Wire Wire Line
+	4200 4300 4200 4200
+Wire Wire Line
+	4700 3300 4700 3100
+Wire Wire Line
+	4700 2600 3300 2600
+$Comp
+L Device:C_Small C41
+U 1 1 5CB55993
+P 3600 4550
+F 0 "C41" H 3692 4596 50  0000 L CNN
+F 1 "0.1uF" H 3692 4505 50  0000 L CNN
+F 2 "" H 3600 4550 50  0001 C CNN
+F 3 "~" H 3600 4550 50  0001 C CNN
+	1    3600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R28
+U 1 1 5CB58104
+P 3300 3250
+F 0 "R28" H 3368 3296 50  0000 L CNN
+F 1 "2.2k" H 3368 3205 50  0000 L CNN
+F 2 "" V 3340 3240 50  0001 C CNN
+F 3 "~" H 3300 3250 50  0001 C CNN
+	1    3300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3000 3300 3050
+Wire Wire Line
+	3100 3150 3100 3050
+Wire Wire Line
+	3100 3050 3300 3050
+Connection ~ 3300 3050
+Wire Wire Line
+	3300 3050 3300 3100
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB5B69E
+P 3300 3400
+AR Path="/5CAEA78E/5CB5B69E" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB5B69E" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CB5B69E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3300 3150 50  0001 C CNN
+F 1 "Earth" H 3300 3250 50  0001 C CNN
+F 2 "" H 3300 3400 50  0001 C CNN
+F 3 "~" H 3300 3400 50  0001 C CNN
+	1    3300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB5BE95
+P 3100 3400
+AR Path="/5CAEA78E/5CB5BE95" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB5BE95" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CB5BE95" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 3150 50  0001 C CNN
+F 1 "Earth" H 3100 3250 50  0001 C CNN
+F 2 "" H 3100 3400 50  0001 C CNN
+F 3 "~" H 3100 3400 50  0001 C CNN
+	1    3100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3350 3100 3400
+Wire Wire Line
+	3300 3050 3600 3050
+Wire Wire Line
+	3300 2700 3300 2600
+Connection ~ 3300 2600
+Connection ~ 3600 3050
+Wire Wire Line
+	3600 3050 5750 3050
+$Comp
+L Device:C_Small C21
+U 1 1 5CB7DCFF
+P 5450 4350
+F 0 "C21" H 5200 4350 50  0000 L CNN
+F 1 "0.047uF" H 5350 4250 50  0000 R CNN
+F 2 "" H 5450 4350 50  0001 C CNN
+F 3 "~" H 5450 4350 50  0001 C CNN
+	1    5450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 5CB7E950
+P 5650 4250
+F 0 "C20" H 5750 4250 50  0000 L CNN
+F 1 "0.047uF" H 6050 4150 50  0000 R CNN
+F 2 "" H 5650 4250 50  0001 C CNN
+F 3 "~" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R31
+U 1 1 5CB7EF72
+P 5450 3750
+F 0 "R31" H 5300 3750 50  0000 C CNN
+F 1 "10" H 5300 3650 50  0000 C CNN
+F 2 "" V 5490 3740 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+	1    5450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4050 5650 4050
+Wire Wire Line
+	5200 4150 5450 4150
+Wire Wire Line
+	5450 4150 5450 4250
+Wire Wire Line
+	5450 4150 5450 3900
+Connection ~ 5450 4150
+$Comp
+L Device:R_US R30
+U 1 1 5CB8F0F3
+P 5650 3750
+F 0 "R30" H 5800 3750 50  0000 C CNN
+F 1 "10" H 5800 3650 50  0000 C CNN
+F 2 "" V 5690 3740 50  0001 C CNN
+F 3 "~" H 5650 3750 50  0001 C CNN
+	1    5650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3900 5650 4050
+Connection ~ 5650 4050
+Wire Wire Line
+	5650 4050 5650 4150
+Wire Wire Line
+	5200 4800 5200 4900
+Wire Wire Line
+	4700 5200 5200 5200
+Wire Wire Line
+	5200 5200 5200 4900
+Connection ~ 5200 4900
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB96919
+P 4700 5200
+AR Path="/5CAEA78E/5CB96919" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB96919" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CB96919" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4700 4950 50  0001 C CNN
+F 1 "Earth" H 4700 5050 50  0001 C CNN
+F 2 "" H 4700 5200 50  0001 C CNN
+F 3 "~" H 4700 5200 50  0001 C CNN
+	1    4700 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 5200
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB96EE4
+P 5450 4450
+AR Path="/5CAEA78E/5CB96EE4" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB96EE4" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CB96EE4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 4200 50  0001 C CNN
+F 1 "Earth" H 5450 4300 50  0001 C CNN
+F 2 "" H 5450 4450 50  0001 C CNN
+F 3 "~" H 5450 4450 50  0001 C CNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CB97488
+P 5650 4350
+AR Path="/5CAEA78E/5CB97488" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CB97488" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CB97488" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 4100 50  0001 C CNN
+F 1 "Earth" H 5650 4200 50  0001 C CNN
+F 2 "" H 5650 4350 50  0001 C CNN
+F 3 "~" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4200 4500
+NoConn ~ 4200 4700
+NoConn ~ 4200 4800
+NoConn ~ 4200 4600
+Wire Wire Line
+	5750 2600 5450 2600
+Wire Wire Line
+	5450 2600 5450 3600
+Connection ~ 5750 2600
+Wire Wire Line
+	6850 2600 6750 2600
+Connection ~ 6850 2600
+$Comp
+L Device:R_US R23
+U 1 1 5CBA9EFA
+P 2550 4200
+F 0 "R23" V 2450 4100 50  0000 L CNN
+F 1 "2.2k" V 2450 4300 50  0000 L CNN
+F 2 "" V 2590 4190 50  0001 C CNN
+F 3 "~" H 2550 4200 50  0001 C CNN
+	1    2550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C40
+U 1 1 5CBA9F00
+P 2500 4500
+F 0 "C40" H 2250 4500 50  0000 L CNN
+F 1 "0.1uF" H 2250 4400 50  0000 L CNN
+F 2 "" H 2500 4500 50  0001 C CNN
+F 3 "~" H 2500 4500 50  0001 C CNN
+	1    2500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R24
+U 1 1 5CBA9F07
+P 2700 4500
+F 0 "R24" H 2768 4546 50  0000 L CNN
+F 1 "2.2k" H 2768 4455 50  0000 L CNN
+F 2 "" V 2740 4490 50  0001 C CNN
+F 3 "~" H 2700 4500 50  0001 C CNN
+	1    2700 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4200 2700 4300
+Wire Wire Line
+	2500 4400 2500 4300
+Wire Wire Line
+	2500 4300 2700 4300
+Connection ~ 2700 4300
+Wire Wire Line
+	2700 4300 2700 4350
+$Comp
+L power:Earth #PWR?
+U 1 1 5CBA9F12
+P 2700 4650
+AR Path="/5CAEA78E/5CBA9F12" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CBA9F12" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CBA9F12" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 4400 50  0001 C CNN
+F 1 "Earth" H 2700 4500 50  0001 C CNN
+F 2 "" H 2700 4650 50  0001 C CNN
+F 3 "~" H 2700 4650 50  0001 C CNN
+	1    2700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CBA9F18
+P 2500 4650
+AR Path="/5CAEA78E/5CBA9F18" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CBA9F18" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CBA9F18" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 4400 50  0001 C CNN
+F 1 "Earth" H 2500 4500 50  0001 C CNN
+F 2 "" H 2500 4650 50  0001 C CNN
+F 3 "~" H 2500 4650 50  0001 C CNN
+	1    2500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4600 2500 4650
+Wire Wire Line
+	2700 4300 2800 4300
+Wire Wire Line
+	3200 2600 3300 2600
+Text GLabel 2300 4200 0    50   Input ~ 0
+5VDC
+Wire Wire Line
+	2300 4200 2400 4200
+Wire Wire Line
+	6750 2600 6750 2950
+Wire Wire Line
+	6750 2950 5650 2950
+Wire Wire Line
+	5650 2950 5650 3600
+Text GLabel 8200 2400 0    50   Input ~ 0
+5VDC
+Connection ~ 3600 4100
+$Comp
+L Device:C_Small C45
+U 1 1 5CCC925F
+P 8500 2550
+F 0 "C45" H 8600 2550 50  0000 L CNN
+F 1 "0.1uF" H 8600 2450 50  0000 L CNN
+F 2 "" H 8500 2550 50  0001 C CNN
+F 3 "~" H 8500 2550 50  0001 C CNN
+	1    8500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2400 8500 2450
+$Comp
+L power:Earth #PWR?
+U 1 1 5CCCE2D4
+P 8500 2700
+AR Path="/5CAEA78E/5CCCE2D4" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CCCE2D4" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CCCE2D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 2450 50  0001 C CNN
+F 1 "Earth" H 8500 2550 50  0001 C CNN
+F 2 "" H 8500 2700 50  0001 C CNN
+F 3 "~" H 8500 2700 50  0001 C CNN
+	1    8500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2700 8500 2650
+Connection ~ 8300 2400
+Wire Wire Line
+	8300 2400 8500 2400
+Wire Wire Line
+	8200 2400 8300 2400
+$Comp
+L Amplifier_Operational:OP249 U11
+U 3 1 5CAD6BA3
+P 8400 2700
+F 0 "U11" H 8000 2700 50  0000 L CNN
+F 1 "LT6231" H 7950 2600 50  0000 L CNN
+F 2 "" H 8400 2700 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 8400 2700 50  0001 C CNN
+	3    8400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CC7FFF1
+P 8300 3000
+AR Path="/5CAEA78E/5CC7FFF1" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CC7FFF1" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CC7FFF1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 2750 50  0001 C CNN
+F 1 "Earth" H 8300 2850 50  0001 C CNN
+F 2 "" H 8300 3000 50  0001 C CNN
+F 3 "~" H 8300 3000 50  0001 C CNN
+	1    8300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3750 7050 3900
+Wire Wire Line
+	6550 3100 6550 2700
+Wire Wire Line
+	6550 3750 7050 3750
+Wire Wire Line
+	6550 3650 6550 3750
+Wire Wire Line
+	6550 3300 6550 3350
+$Comp
+L Device:R_US R35
+U 1 1 5CB14224
+P 6550 3500
+F 0 "R35" H 6700 3500 50  0000 C CNN
+F 1 "120" H 6700 3400 50  0000 C CNN
+F 2 "" V 6590 3490 50  0001 C CNN
+F 3 "~" H 6550 3500 50  0001 C CNN
+	1    6550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C47
+U 1 1 5CB1421E
+P 6550 3200
+F 0 "C47" H 6650 3200 50  0000 L CNN
+F 1 "0.1uF" H 6850 3100 50  0000 R CNN
+F 2 "" H 6550 3200 50  0001 C CNN
+F 3 "~" H 6550 3200 50  0001 C CNN
+	1    6550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3750 7150 3900
+Wire Wire Line
+	7650 3750 7150 3750
+Wire Wire Line
+	7650 3650 7650 3750
+Wire Wire Line
+	7650 3300 7650 3350
+Wire Wire Line
+	7650 2700 7650 3100
+$Comp
+L Device:R_US R34
+U 1 1 5CAFCE71
+P 7650 3500
+F 0 "R34" H 7800 3500 50  0000 C CNN
+F 1 "120" H 7800 3400 50  0000 C CNN
+F 2 "" V 7690 3490 50  0001 C CNN
+F 3 "~" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C46
+U 1 1 5CAFBDCA
+P 7650 3200
+F 0 "C46" H 7750 3200 50  0000 L CNN
+F 1 "0.1uF" H 7950 3100 50  0000 R CNN
+F 2 "" H 7650 3200 50  0001 C CNN
+F 3 "~" H 7650 3200 50  0001 C CNN
+	1    7650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4500 7200 4550
+Wire Wire Line
+	7250 4500 7200 4500
 $Comp
 L power:Earth #PWR?
 U 1 1 5CADA1BD
-P 5950 5550
+P 7200 4550
 AR Path="/5CAEA78E/5CADA1BD" Ref="#PWR?"  Part="1" 
 AR Path="/5CB2DC4F/5CADA1BD" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5E48B/5CADA1BD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5950 5300 50  0001 C CNN
-F 1 "Earth" H 5950 5400 50  0001 C CNN
-F 2 "" H 5950 5550 50  0001 C CNN
-F 3 "~" H 5950 5550 50  0001 C CNN
-	1    5950 5550
+F 0 "#PWR?" H 7200 4300 50  0001 C CNN
+F 1 "Earth" H 7200 4400 50  0001 C CNN
+F 2 "" H 7200 4550 50  0001 C CNN
+F 3 "~" H 7200 4550 50  0001 C CNN
+	1    7200 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 5500 5950 5500
+	7050 4400 7250 4400
 Wire Wire Line
-	5950 5500 5950 5550
+	7050 4200 7050 4400
+Wire Wire Line
+	7150 4300 7150 4200
+Wire Wire Line
+	7250 4300 7150 4300
+$Comp
+L RadioParts:Jumper_Crossed_Small JP1
+U 1 1 5CAD70BE
+P 7100 4050
+F 0 "JP1" V 7054 4152 50  0000 L CNN
+F 1 "RX Option" V 7145 4152 50  0000 L CNN
+F 2 "" H 7250 4175 50  0001 C CNN
+F 3 "~" H 6975 4175 50  0001 C CNN
+	1    7100 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L RadioParts:AUDIO-JACK-3 J2
+U 1 1 5CAD70B8
+P 7500 4300
+F 0 "J2" H 7147 4374 60  0000 R CNN
+F 1 "To stereo line-in" H 7147 4480 60  0000 R CNN
+F 2 "" H 7250 4250 60  0000 C CNN
+F 3 "" H 7250 4250 60  0000 C CNN
+	1    7500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R25
+U 1 1 5CD28173
+P 3900 4300
+F 0 "R25" V 3800 4250 50  0000 C CNN
+F 1 "10" V 3800 4400 50  0000 C CNN
+F 2 "" V 3940 4290 50  0001 C CNN
+F 3 "~" H 3900 4300 50  0001 C CNN
+	1    3900 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R26
+U 1 1 5CD2903D
+P 3900 3900
+F 0 "R26" V 4000 3850 50  0000 C CNN
+F 1 "10" V 4000 4000 50  0000 C CNN
+F 2 "" V 3940 3890 50  0001 C CNN
+F 3 "~" H 3900 3900 50  0001 C CNN
+	1    3900 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3900 3750 3900
+Wire Wire Line
+	4050 3900 4200 3900
+Connection ~ 4200 3900
+Wire Wire Line
+	3600 4300 3750 4300
+Wire Wire Line
+	4050 4300 4200 4300
+Connection ~ 4200 4300
+Wire Wire Line
+	3600 3050 3600 4100
+Wire Wire Line
+	3600 4100 3600 4450
+$Comp
+L Device:C_Small C43
+U 1 1 5CD377EA
+P 4900 3250
+F 0 "C43" H 5000 3250 50  0000 L CNN
+F 1 "0.1uF" H 5000 3150 50  0000 L CNN
+F 2 "" H 4900 3250 50  0001 C CNN
+F 3 "~" H 4900 3250 50  0001 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5CD38935
+P 4900 3350
+AR Path="/5CAEA78E/5CD38935" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CD38935" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CD38935" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 3100 50  0001 C CNN
+F 1 "Earth" H 4900 3200 50  0001 C CNN
+F 2 "" H 4900 3350 50  0001 C CNN
+F 3 "~" H 4900 3350 50  0001 C CNN
+	1    4900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3150 4900 3100
+Wire Wire Line
+	4900 3100 4700 3100
+Connection ~ 4700 3100
+Wire Wire Line
+	4700 3100 4700 2600
 $EndSCHEMATC
