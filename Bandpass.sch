@@ -750,9 +750,9 @@ F 3 "~" H 2950 3550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2950 3500 2950 3550
-Text GLabel 2350 1800 0    50   Input ~ 6
+Text GLabel 2350 1800 0    50   Input ~ 0
 FSEL-0
-Text GLabel 2350 1900 0    50   Input ~ 6
+Text GLabel 2350 1900 0    50   Input ~ 0
 FSEL-1
 Wire Wire Line
 	2350 1800 2450 1800
@@ -770,7 +770,7 @@ Wire Wire Line
 Connection ~ 3450 2700
 Connection ~ 3450 2300
 Connection ~ 3450 2000
-Text GLabel 2850 1250 0    50   Input ~ 6
+Text GLabel 2850 1250 0    50   Input ~ 0
 5VDC
 Wire Wire Line
 	2950 1250 2950 1350
@@ -797,11 +797,11 @@ Connection ~ 7650 3200
 Wire Wire Line
 	7150 3500 7150 3550
 Connection ~ 7150 3500
-Text GLabel 7250 1250 2    50   Input ~ 6
+Text GLabel 7250 1250 2    50   Input ~ 0
 5VDC
-Text GLabel 7700 1800 2    50   Input ~ 6
+Text GLabel 7700 1800 2    50   Input ~ 0
 FSEL-0
-Text GLabel 7700 1900 2    50   Input ~ 6
+Text GLabel 7700 1900 2    50   Input ~ 0
 FSEL-1
 Wire Wire Line
 	7650 1800 7700 1800
@@ -914,7 +914,7 @@ F 3 "~" H 1850 2900 50  0001 C CNN
 	1    1850 2900
 	0    1    1    0   
 $EndComp
-Text GLabel 2050 2900 2    50   Input ~ 6
+Text GLabel 2050 2900 2    50   Input ~ 0
 5VDC
 Wire Wire Line
 	2000 2900 2050 2900
@@ -1028,7 +1028,7 @@ Wire Wire Line
 Connection ~ 7150 1350
 Wire Wire Line
 	7150 1350 7150 1250
-Text GLabel 7750 2450 2    50   Output ~ 6
+Text GLabel 7750 2450 2    50   Output ~ 0
 FILTERED-RF
 Wire Wire Line
 	7750 2450 7650 2450

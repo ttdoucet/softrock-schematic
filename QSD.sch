@@ -72,13 +72,13 @@ F 3 "~" H 2200 3550 50  0001 C CNN
 	1    2200 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 1500 0    50   Input ~ 6
+Text GLabel 1750 1500 0    50   Input ~ 0
 5VDC
-Text GLabel 2800 2500 0    50   Input ~ 6
+Text GLabel 2800 2500 0    50   Input ~ 0
 QSD-CLK-0
-Text GLabel 2800 2600 0    50   Input ~ 6
+Text GLabel 2800 2600 0    50   Input ~ 0
 QSD-CLK-1
-Text GLabel 1700 2800 0    50   Input ~ 6
+Text GLabel 1700 2800 0    50   Input ~ 0
 FILTERED-RF
 $Comp
 L RadioParts:FST3253-ALT1 U?
@@ -376,11 +376,11 @@ Wire Wire Line
 	1400 3500 1400 3550
 Wire Wire Line
 	1750 1500 1850 1500
-Text GLabel 1200 3100 0    50   Input ~ 6
+Text GLabel 1200 3100 0    50   Input ~ 0
 5VDC
 Wire Wire Line
 	1200 3100 1300 3100
-Text GLabel 4900 4500 0    50   Input ~ 6
+Text GLabel 4900 4500 0    50   Input ~ 0
 5VDC
 $Comp
 L Device:C_Small C45
@@ -661,12 +661,12 @@ Wire Wire Line
 Connection ~ 4600 3000
 Wire Wire Line
 	4600 3000 4600 3400
-Text Label 2250 1950 0    50   ~ 6
+Text Label 2250 1950 0    50   ~ 0
 VGND
 Wire Wire Line
 	2200 1950 2250 1950
 Connection ~ 2200 1950
-Text Label 4400 3000 2    50   ~ 6
+Text Label 4400 3000 2    50   ~ 0
 VGND
 $Comp
 L power:Earth #PWR?

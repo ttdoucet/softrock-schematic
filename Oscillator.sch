@@ -686,7 +686,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 2400 7950 2400
 Connection ~ 7900 2400
-Text Label 7950 2400 0    50   ~ 6
+Text Label 7950 2400 0    50   ~ 0
 5VDC
 Wire Wire Line
 	7800 2700 7900 2700
@@ -753,7 +753,7 @@ Wire Wire Line
 Connection ~ 6900 1800
 Wire Wire Line
 	6900 1800 6900 2000
-Text Label 7950 2700 0    50   ~ 6
+Text Label 7950 2700 0    50   ~ 0
 5VDC
 $Comp
 L Isolator:LTV-817 U4
@@ -807,9 +807,9 @@ Wire Wire Line
 	3950 3050 4450 3050
 Wire Wire Line
 	4450 3050 4450 3200
-Text Label 4750 3550 0    50   ~ 6
+Text Label 4750 3550 0    50   ~ 0
 VBUS
-Text Label 3400 2150 0    50   ~ 6
+Text Label 3400 2150 0    50   ~ 0
 VBUS
 Wire Wire Line
 	3350 2150 3400 2150
@@ -841,7 +841,7 @@ Wire Wire Line
 	4250 5000 4650 5000
 Wire Wire Line
 	4650 5000 4650 4950
-Text Label 4700 5000 0    50   ~ 6
+Text Label 4700 5000 0    50   ~ 0
 5VDC
 Wire Wire Line
 	4650 5000 4700 5000
@@ -890,19 +890,19 @@ Wire Wire Line
 	7850 1500 7950 1500
 Wire Wire Line
 	7700 3650 7800 3650
-Text Label 7700 3650 2    50   ~ 6
+Text Label 7700 3650 2    50   ~ 0
 5VDC
-Text GLabel 7800 3650 2    50   Input ~ 6
+Text GLabel 7800 3650 2    50   Input ~ 0
 5VDC
-Text GLabel 5150 4350 2    50   Output ~ 6
+Text GLabel 5150 4350 2    50   Output ~ 0
 FSEL-0
-Text GLabel 5150 4550 2    50   Output ~ 6
+Text GLabel 5150 4550 2    50   Output ~ 0
 FSEL-1
-Text GLabel 8650 2000 2    50   Output ~ 6
+Text GLabel 8650 2000 2    50   Output ~ 0
 QSD-CLK-1
-Text GLabel 8650 3100 2    50   Output ~ 6
+Text GLabel 8650 3100 2    50   Output ~ 0
 QSD-CLK-0
-Text Label 7950 1500 0    50   ~ 6
+Text Label 7950 1500 0    50   ~ 0
 5VDC
 Wire Wire Line
 	8400 2000 8650 2000
@@ -1068,7 +1068,7 @@ F 3 "~" H 1250 5360 50  0001 C CNN
 	1    1200 5400
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 5300 2    50   Output ~ 6
+Text GLabel 3100 5300 2    50   Output ~ 0
 5VDC
 Wire Wire Line
 	2900 5300 3100 5300
