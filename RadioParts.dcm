@@ -84,4 +84,10 @@ D Straight thru or crossed jumper
 F ~
 $ENDCMP
 #
+$CMP Transformer_1P_SS
+D Transformer, single primary, split secondary
+K transformer coil magnet
+F ~
+$ENDCMP
+#
 #End Doc Library
