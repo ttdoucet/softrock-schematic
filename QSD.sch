@@ -372,13 +372,6 @@ Wire Wire Line
 Connection ~ 5650 4050
 Wire Wire Line
 	5650 4050 5650 4150
-Wire Wire Line
-	5200 4800 5200 4900
-Wire Wire Line
-	4700 5200 5200 5200
-Wire Wire Line
-	5200 5200 5200 4900
-Connection ~ 5200 4900
 $Comp
 L power:Earth #PWR?
 U 1 1 5CB96919
@@ -393,7 +386,6 @@ F 3 "~" H 4700 5200 50  0001 C CNN
 	1    4700 5200
 	1    0    0    -1  
 $EndComp
-Connection ~ 4700 5200
 $Comp
 L power:Earth #PWR?
 U 1 1 5CB96EE4
@@ -762,4 +754,75 @@ Wire Wire Line
 Connection ~ 4700 3100
 Wire Wire Line
 	4700 3100 4700 2600
+$Comp
+L power:Earth #PWR?
+U 1 1 5CADE688
+P 5400 5200
+AR Path="/5CAEA78E/5CADE688" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CADE688" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CADE688" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 4950 50  0001 C CNN
+F 1 "Earth" H 5400 5050 50  0001 C CNN
+F 2 "" H 5400 5200 50  0001 C CNN
+F 3 "~" H 5400 5200 50  0001 C CNN
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 4900
+Wire Wire Line
+	5200 4800 5200 4900
+Wire Wire Line
+	5400 4950 5400 4900
+Wire Wire Line
+	5400 5150 5400 5200
+Wire Wire Line
+	5250 4900 5400 4900
+Wire Wire Line
+	5250 4900 5200 4900
+Connection ~ 5250 4900
+Connection ~ 5400 5200
+Connection ~ 5400 4900
+$Comp
+L Device:C_Small C44
+U 1 1 5CAD97C4
+P 5400 5050
+F 0 "C44" H 5150 5050 50  0000 L CNN
+F 1 "0.1uF" H 5150 5150 50  0000 L CNN
+F 2 "" H 5400 5050 50  0001 C CNN
+F 3 "~" H 5400 5050 50  0001 C CNN
+	1    5400 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5200 5700 5200
+Wire Wire Line
+	5400 4900 5700 4900
+$Comp
+L RadioParts:Jumper_Bridged JP99
+U 1 1 5CAD876D
+P 5700 5050
+F 0 "JP99" H 5700 5257 50  0001 C CNN
+F 1 "~QSD EN" V 5700 5250 50  0000 C CNN
+F 2 "" H 5700 5050 50  0001 C CNN
+F 3 "~" H 5700 5050 50  0001 C CNN
+	1    5700 5050
+	0    1    1    0   
+$EndComp
+Text GLabel 5200 5250 0    50   Input ~ 0
+5VDC
+$Comp
+L Device:R_US R29
+U 1 1 5CAD926F
+P 5250 5050
+F 0 "R29" H 5050 5100 50  0000 L CNN
+F 1 "10k" H 5050 5000 50  0000 L CNN
+F 2 "" V 5290 5040 50  0001 C CNN
+F 3 "~" H 5250 5050 50  0001 C CNN
+	1    5250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5250 5250 5250
+Wire Wire Line
+	5250 5250 5250 5200
 $EndSCHEMATC
