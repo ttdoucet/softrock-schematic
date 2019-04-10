@@ -60,6 +60,12 @@ K diode
 F http://diotec.com/tl_files/diotec/files/pdf/datasheets/ba157
 $ENDCMP
 #
+$CMP Conn_Coaxial
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
 $CMP FST3253
 D Dual 4 to 1 line Multiplexer
 $ENDCMP
