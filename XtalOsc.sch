@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:XtalOsc-cache
-LIBS:QSD-roundabout-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -236,7 +235,7 @@ F 3 "~" H 1500 1250 50  0001 C CNN
 	1    1500 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 1400 1100 0    50   Input ~ 6
+Text GLabel 1400 1100 0    50   Input ~ 0
 5VDC
 Wire Wire Line
 	1750 1150 1750 1100
@@ -361,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 1850 4100 1850
 Connection ~ 4050 1850
-Text Label 4100 1850 0    50   ~ 6
+Text Label 4100 1850 0    50   ~ 0
 5VDC
 Wire Wire Line
 	3950 2150 4050 2150
@@ -398,11 +397,11 @@ F 3 "~" H 3350 1300 50  0001 C CNN
 	1    3350 1300
 	1    0    0    -1  
 $EndComp
-Text Label 4100 2150 0    50   ~ 6
+Text Label 4100 2150 0    50   ~ 0
 5VDC
-Text GLabel 4650 1450 2    50   Output ~ 6
+Text GLabel 4650 1450 2    50   Output ~ 0
 QSD-CLK-1
-Text GLabel 4650 2550 2    50   Output ~ 6
+Text GLabel 4650 2550 2    50   Output ~ 0
 QSD-CLK-0
 Wire Wire Line
 	4550 1450 4650 1450
@@ -483,11 +482,11 @@ F 3 "~" H 2250 5100 50  0001 C CNN
 	1    2250 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 3250 0    50   Input ~ 6
+Text GLabel 1800 3250 0    50   Input ~ 0
 5VDC
-Text GLabel 2850 4050 0    50   Input ~ 6
+Text GLabel 2850 4050 0    50   Input ~ 0
 QSD-CLK-0
-Text GLabel 2850 4150 0    50   Input ~ 6
+Text GLabel 2850 4150 0    50   Input ~ 0
 QSD-CLK-1
 $Comp
 L RadioParts:FST3253-ALT1 U?
@@ -717,7 +716,7 @@ NoConn ~ 2850 5250
 NoConn ~ 2850 5050
 Wire Wire Line
 	1800 3250 1900 3250
-Text GLabel 4900 5950 0    50   Input ~ 6
+Text GLabel 4900 5950 0    50   Input ~ 0
 5VDC
 $Comp
 L Device:C_Small C?
@@ -994,12 +993,12 @@ Wire Wire Line
 Connection ~ 4600 4550
 Wire Wire Line
 	4600 4550 4600 4950
-Text Label 2300 3650 0    50   ~ 6
+Text Label 2300 3650 0    50   ~ 0
 VGND
 Wire Wire Line
 	2250 3650 2300 3650
 Connection ~ 2250 3650
-Text Label 4400 4550 2    50   ~ 6
+Text Label 4400 4550 2    50   ~ 0
 VGND
 $Comp
 L power:Earth #PWR?
