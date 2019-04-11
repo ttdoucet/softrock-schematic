@@ -1108,17 +1108,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 5700 3350 5650
 Connection ~ 2400 1100
-$Comp
-L power:Earth #PWR?
-U 1 1 5CBFFFFB
-P 4400 1300
-F 0 "#PWR?" H 4400 1050 50  0001 C CNN
-F 1 "Earth" H 4400 1150 50  0001 C CNN
-F 2 "" H 4400 1300 50  0001 C CNN
-F 3 "~" H 4400 1300 50  0001 C CNN
-	1    4400 1300
-	1    0    0    -1  
-$EndComp
 Connection ~ 3350 1100
 Wire Wire Line
 	3350 1100 4000 1100
