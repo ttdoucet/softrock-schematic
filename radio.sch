@@ -2445,55 +2445,17 @@ F 3 "~" H 11950 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:OP249 U?
-U 3 1 5CC7743A
-P 11500 4000
-AR Path="/5CB5E48B/5CC7743A" Ref="U?"  Part="3" 
-AR Path="/5CAEA78E/5CC7743A" Ref="U11"  Part="3" 
-AR Path="/5CC7743A" Ref="U11"  Part="3" 
-F 0 "U11" H 11100 4000 50  0000 L CNN
-F 1 "LT6231" H 11050 3900 50  0000 L CNN
-F 2 "" H 11500 4000 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 11500 4000 50  0001 C CNN
-	3    11500 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11350 3700 11400 3700
-Wire Wire Line
-	11400 3700 11600 3700
-Connection ~ 11400 3700
-Wire Wire Line
-	11600 4000 11600 3950
-$Comp
-L power:Earth #PWR033
-U 1 1 5CC77430
-P 11600 4000
-AR Path="/5CAEA78E/5CC77430" Ref="#PWR033"  Part="1" 
-AR Path="/5CB2DC4F/5CC77430" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5E48B/5CC77430" Ref="#PWR?"  Part="1" 
-AR Path="/5CC77430" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 11600 3750 50  0001 C CNN
-F 1 "Earth" H 11600 3850 50  0001 C CNN
-F 2 "" H 11600 4000 50  0001 C CNN
-F 3 "~" H 11600 4000 50  0001 C CNN
-	1    11600 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11600 3700 11600 3750
-$Comp
 L Device:C_Small C?
 U 1 1 5CC77429
-P 11600 3850
+P 11300 2250
 AR Path="/5CB5E48B/5CC77429" Ref="C?"  Part="1" 
 AR Path="/5CAEA78E/5CC77429" Ref="C39"  Part="1" 
 AR Path="/5CC77429" Ref="C45"  Part="1" 
-F 0 "C45" H 11700 3850 50  0000 L CNN
-F 1 "0.1uF" H 11700 3750 50  0000 L CNN
-F 2 "" H 11600 3850 50  0001 C CNN
-F 3 "~" H 11600 3850 50  0001 C CNN
-	1    11600 3850
+F 0 "C45" H 11400 2250 50  0000 L CNN
+F 1 "0.1uF" H 11400 2150 50  0000 L CNN
+F 2 "" H 11300 2250 50  0001 C CNN
+F 3 "~" H 11300 2250 50  0001 C CNN
+	1    11300 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2884,7 +2846,7 @@ F 3 "~" H 8300 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:OP249 U?
+L RadioParts:OP249 U?
 U 2 1 5CC7736E
 P 11250 1800
 AR Path="/5CB5E48B/5CC7736E" Ref="U?"  Part="2" 
@@ -2898,7 +2860,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.p
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:OP249 U?
+L RadioParts:OP249 U?
 U 1 1 5CC77368
 P 11250 2700
 AR Path="/5CB5E48B/5CC77368" Ref="U?"  Part="1" 
@@ -2996,7 +2958,7 @@ Wire Wire Line
 	12450 2400 12450 2450
 Text Label 7700 4250 0    50   ~ 0
 5VDC
-Text Label 11350 3700 2    50   ~ 0
+Text Label 11350 2100 0    50   ~ 0
 5VDC
 Text Label 9700 900  0    50   ~ 0
 5VDC
@@ -3032,4 +2994,31 @@ Text Label 7600 2350 2    50   ~ 0
 5VDC
 Text Label 1000 2750 2    50   ~ 0
 5VDC
+Wire Wire Line
+	11150 2100 11300 2100
+Wire Wire Line
+	11300 2100 11300 2150
+Wire Wire Line
+	11300 2350 11300 2400
+$Comp
+L power:Earth #PWR?
+U 1 1 5CE4AD3F
+P 11300 2400
+AR Path="/5CAEA78E/5CE4AD3F" Ref="#PWR?"  Part="1" 
+AR Path="/5CB2DC4F/5CE4AD3F" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5E48B/5CE4AD3F" Ref="#PWR?"  Part="1" 
+AR Path="/5CE4AD3F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11300 2150 50  0001 C CNN
+F 1 "Earth" H 11300 2250 50  0001 C CNN
+F 2 "" H 11300 2400 50  0001 C CNN
+F 3 "~" H 11300 2400 50  0001 C CNN
+	1    11300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 2400 11300 2400
+Connection ~ 11300 2400
+Wire Wire Line
+	11300 2100 11350 2100
+Connection ~ 11300 2100
 $EndSCHEMATC
