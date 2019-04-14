@@ -1845,7 +1845,7 @@ Connection ~ 3000 2300
 Connection ~ 3000 1900
 Connection ~ 3000 1600
 Wire Wire Line
-	2500 850  2500 950 
+	2500 900  2500 950 
 $Comp
 L power:Earth #PWR022
 U 1 1 5CB35804
@@ -2071,8 +2071,6 @@ Wire Wire Line
 Connection ~ 2500 950 
 Wire Wire Line
 	2500 950  2500 1100
-Wire Wire Line
-	2500 850  2450 850 
 Wire Wire Line
 	7200 2050 7200 2150
 Connection ~ 7200 2050
@@ -2728,7 +2726,7 @@ AR Path="/5CB5E48B/5CC773A8" Ref="C?"  Part="1"
 AR Path="/5CAEA78E/5CC773A8" Ref="C38"  Part="1" 
 AR Path="/5CC773A8" Ref="C24"  Part="1" 
 F 0 "C24" V 11400 3300 50  0000 L CNN
-F 1 "390pF" V 11400 3250 50  0000 R CNN
+F 1 "390pF" V 11400 3200 50  0000 R CNN
 F 2 "" H 11300 3250 50  0001 C CNN
 F 3 "~" H 11300 3250 50  0001 C CNN
 	1    11300 3250
@@ -2962,7 +2960,7 @@ Text Label 11400 2100 0    50   ~ 0
 5VDC
 Text Label 9700 900  0    50   ~ 0
 5VDC
-Text Label 2450 850  2    50   ~ 0
+Text Label 2450 900  2    50   ~ 0
 5VDC
 Wire Wire Line
 	7600 5150 7600 5200
@@ -3021,4 +3019,6 @@ Wire Wire Line
 Connection ~ 11350 2100
 Wire Wire Line
 	11350 2100 11400 2100
+Wire Wire Line
+	2450 900  2500 900 
 $EndSCHEMATC
