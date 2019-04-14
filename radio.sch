@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:onesheet-cache
+LIBS:radio-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLegal 14000 8500
@@ -860,12 +860,6 @@ Wire Wire Line
 Connection ~ 4550 7150
 Wire Wire Line
 	4150 7300 4700 7300
-Wire Wire Line
-	7500 6450 7600 6450
-Text Label 7500 6450 2    50   ~ 0
-5VDC
-Text GLabel 7600 6450 2    50   Output ~ 0
-5VDC
 Text GLabel 4700 7150 2    50   Output ~ 0
 FSEL-0
 Text GLabel 4700 7300 2    50   Output ~ 0
@@ -1866,8 +1860,6 @@ Wire Wire Line
 Connection ~ 3000 2300
 Connection ~ 3000 1900
 Connection ~ 3000 1600
-Text GLabel 2400 850  0    50   Input ~ 0
-5VDC
 Wire Wire Line
 	2500 850  2500 950 
 $Comp
@@ -1894,8 +1886,6 @@ Connection ~ 7200 2800
 Wire Wire Line
 	6700 3100 6700 3150
 Connection ~ 6700 3100
-Text GLabel 9700 900  2    50   Input ~ 0
-5VDC
 Text GLabel 7250 1400 2    50   Input ~ 0
 FSEL-0
 Text GLabel 7250 1500 2    50   Input ~ 0
@@ -2100,7 +2090,7 @@ Connection ~ 2500 950
 Wire Wire Line
 	2500 950  2500 1100
 Wire Wire Line
-	2500 850  2400 850 
+	2500 850  2450 850 
 Wire Wire Line
 	7200 2050 7200 2150
 Connection ~ 7200 2050
@@ -2487,7 +2477,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.p
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11300 3700 11400 3700
+	11350 3700 11400 3700
 Wire Wire Line
 	11400 3700 11600 3700
 Connection ~ 11400 3700
@@ -2524,8 +2514,6 @@ F 3 "~" H 11600 3850 50  0001 C CNN
 	1    11600 3850
 	1    0    0    -1  
 $EndComp
-Text GLabel 11300 3700 0    50   Input ~ 0
-5VDC
 Wire Wire Line
 	7750 2750 7750 2800
 $Comp
@@ -2941,8 +2929,6 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.p
 	1    11250 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 7700 4300 2    50   Input ~ 0
-5VDC
 Connection ~ 8200 900 
 Wire Wire Line
 	7200 2050 8100 2050
@@ -3030,4 +3016,12 @@ Wire Wire Line
 	12500 2400 12450 2400
 Wire Wire Line
 	12450 2400 12450 2450
+Text Label 7700 4300 0    50   ~ 0
+5VDC
+Text Label 11350 3700 2    50   ~ 0
+5VDC
+Text Label 9700 900  0    50   ~ 0
+5VDC
+Text Label 2450 850  2    50   ~ 0
+5VDC
 $EndSCHEMATC
