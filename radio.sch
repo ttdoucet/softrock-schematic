@@ -2865,7 +2865,7 @@ AR Path="/5CB5E48B/5CC77368" Ref="U?"  Part="1"
 AR Path="/5CAEA78E/5CC77368" Ref="U11"  Part="1" 
 AR Path="/5CC77368" Ref="U11"  Part="1" 
 F 0 "U11" H 11100 2700 50  0000 L CNN
-F 1 "LT6231" H 11350 3100 50  0001 L CNN
+F 1 "LT6231" H 11150 1850 50  0000 L CNN
 F 2 "" H 11250 2700 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf" H 11250 2700 50  0001 C CNN
 	1    11250 2700
